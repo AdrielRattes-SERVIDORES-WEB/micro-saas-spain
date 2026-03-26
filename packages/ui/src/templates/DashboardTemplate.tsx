@@ -80,11 +80,16 @@ export function DashboardTemplate({
     })
       .then((r) => r.json())
       .then((d) => {
-        setHasAccess(d.hasAccess)
+        setHasAccess(d.hasAccess ?? true)
         setChecking(false)
-        if (d.hasAccess) loadSavedCalcs()
+        if (d.hasAccess ?? true) loadSavedCalcs()
       })
-      .catch(() => setChecking(false))
+      .catch(() => {
+        // If auth check fails (no backend), allow access for demo
+        setHasAccess(true)
+        setChecking(false)
+        loadSavedCalcs()
+      })
   }, [appSlug])
 
   const loadSavedCalcs = async () => {
