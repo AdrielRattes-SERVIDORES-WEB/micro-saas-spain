@@ -4,7 +4,9 @@
     "plugins": [{ "name": "next" }],
     "paths": {
       "@saas/ui": ["../../packages/ui/src/index.ts"],
-      "@saas/db": ["../../packages/db/src/index.ts"]
+      "@saas/ui/src/*": ["../../packages/ui/src/*"],
+      "@saas/db": ["../../packages/db/src/index.ts"],
+      "@saas/db/src/*": ["../../packages/db/src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
