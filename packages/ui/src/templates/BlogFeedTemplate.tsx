@@ -13,6 +13,8 @@ interface Article {
   title: string
   content: string
   excerpt?: string
+  image?: string
+  imageAlt?: string
 }
 
 interface BlogFeedTemplateProps {
@@ -80,12 +82,20 @@ export function BlogFeedTemplate({
                 className="group bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 flex flex-col"
               >
                 {/* Card image area */}
-                <div
-                  style={{ backgroundColor: accentColor }}
-                  className="h-40 flex items-center justify-center relative overflow-hidden"
-                >
-                  <span className="text-7xl opacity-80 group-hover:scale-110 transition-transform duration-300">{emoji}</span>
-                  <div className="absolute top-3 left-3 bg-white/20 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1 rounded-full">
+                <div className="h-44 relative overflow-hidden">
+                  {article.image ? (
+                    <img
+                      src={article.image}
+                      alt={article.imageAlt || article.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div style={{ backgroundColor: accentColor }} className="w-full h-full flex items-center justify-center">
+                      <span className="text-7xl opacity-80 group-hover:scale-110 transition-transform duration-300">{emoji}</span>
+                    </div>
+                  )}
+                  <div className="absolute top-3 left-3 bg-black/40 backdrop-blur-sm text-white text-xs font-semibold px-2.5 py-1 rounded-full">
                     #{index + 1}
                   </div>
                 </div>

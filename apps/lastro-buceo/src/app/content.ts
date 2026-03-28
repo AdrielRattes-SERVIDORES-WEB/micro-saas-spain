@@ -13,6 +13,16 @@ export const articles = [
   {
     slug: 'flotabilidad-neutra-buceo',
     title: 'Por qué la Flotabilidad Neutra es la Habilidad más Importante en Buceo',
+    excerpt: 'Dominar la flotabilidad neutra reduce el consumo de aire hasta un 40% y protege los fondos marinos. Aprende la física, los errores más comunes y cómo practicarla en la piscina.',
+    image: 'https://images.unsplash.com/photo-1544551763-46a013bb7f44?w=1200&h=630&fit=crop&q=80',
+    imageAlt: 'Buceador practicando flotabilidad neutra en el Mediterráneo',
+    publishedAt: '2026-03-01',
+    faq: [
+      { q: '¿Cuánto tiempo tarda en aprenderse la flotabilidad neutra?', a: 'Con práctica sistemática en piscina, la mayoría de buceadores notan una mejora clara en 3-5 sesiones dedicadas. El dominio completo llega con la experiencia de inmersión, normalmente entre 50 y 100 inmersiones.' },
+      { q: '¿Por qué consumo tanto aire cuando no tengo buena flotabilidad?', a: 'El sobre-lastrado obliga a patalear constantemente para no caer al fondo, y el sub-lastrado hace lo mismo para no subir. Ese esfuerzo muscular continuo dispara el consumo de aire. Con flotabilidad neutra correcta, el consumo puede reducirse entre un 20 y un 40%.' },
+      { q: '¿Necesito hacer el test de flotabilidad en cada inmersión?', a: 'No en cada inmersión, pero sí cada vez que cambies de equipo, de traje, de tipo de agua (mar vs lago) o si ha pasado mucho tiempo desde tu última inmersión. Con el tiempo desarrollas intuición, pero es buena práctica revisarlo periódicamente.' },
+      { q: '¿La flotabilidad neutra se puede practicar en piscina?', a: 'Sí, y es la manera más eficiente. Una piscina de 2-3 metros de profundidad es perfecta para practicar el control respiratorio y la posición horizontal sin distracciones.' },
+    ],
     content: `<p>Llevo más de quince años impartiendo cursos de buceo en el Mediterráneo español, desde la Costa Brava hasta Murcia, y si hay algo que siempre digo a mis alumnos el primer día es esto: puedes tener el equipo más caro del mundo, puedes haber buceado en las Maldivas y en el Mar Rojo, pero si tu flotabilidad no es correcta, no eres un buceador completo. La flotabilidad neutra — la capacidad de quedar suspendido en el agua sin subir ni bajar, sin dar ni una sola patada — es el sello del buceador experimentado, y también la habilidad que más tiempo cuesta dominar.</p>
 
 <p>En este artículo vamos a ver exactamente por qué es tan importante, cuál es la física detrás, y cómo practicarla de forma sistemática. No es teoría abstracta: es lo que marca la diferencia entre una inmersión bonita y una en la que llegas al barco agotado con el manómetro en reserva.</p>
@@ -129,6 +139,16 @@ export const articles = [
   {
     slug: 'agua-dulce-vs-salada-buceo',
     title: 'Diferencia entre Bucear en Agua Dulce y Salada: Cuánto Plomo Más Necesitas',
+    excerpt: 'Descubre cuántos kilos de plomo adicionales necesitas al pasar del Mediterráneo a agua dulce. Con fórmula de Arquímedes, tabla por zonas de España y protocolo de ajuste paso a paso.',
+    image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=630&fit=crop&q=80',
+    imageAlt: 'Buceador bajo el agua en el Mediterráneo español',
+    publishedAt: '2026-03-05',
+    faq: [
+      { q: '¿Cuánto plomo más necesito al pasar de bucear en el mar al lago?', a: 'Para un buceador de 75-80 kg con traje de 5mm, la diferencia típica es de 1,5 a 2 kg menos de plomo en agua dulce respecto al Mediterráneo. La fórmula exacta depende de tu volumen total (cuerpo + equipo), pero 2 kg es una buena estimación de partida para el ajuste.' },
+      { q: '¿El Atlántico y el Mediterráneo tienen la misma salinidad?', a: 'Son muy similares. El Mediterráneo tiene en promedio 38‰ de salinidad y el Atlántico español (Canarias, Galicia) ronda 35-37‰. La diferencia en términos de lastre es mínima, menos de 0,5 kg para la mayoría de buceadores.' },
+      { q: '¿La temperatura del agua afecta al lastre?', a: 'Sí, aunque menos que la salinidad. El agua más fría es ligeramente más densa, lo que aumenta el empuje. En términos prácticos, si pasas de bucear en agosto a 28°C a invierno a 13°C, puede que necesites 0,5-1 kg menos de lastre, aunque el cambio de traje (de 3mm a 7mm) tendrá mucho más impacto.' },
+      { q: '¿Puedo bucear en agua dulce sin ajustar el lastre?', a: 'Técnicamente sí, pero no es recomendable. Con el mismo lastre que en el mar, estarás sub-lastrado en agua dulce (flotarás más), lo que dificultará bajar y mantener la profundidad. Siempre ajusta el lastre cuando cambies de entorno.' },
+    ],
     content: `<p>Una de las primeras veces que me pilló por sorpresa el cambio de entorno fue cuando llevé a un grupo de buceadores del Mediterráneo a bucear al embalse de Sau, en la comarca de Osona, al norte de Barcelona. Habían buceado toda la temporada en Roses y en las Islas Medas con un lastrado perfectamente ajustado. Ese día, en agua dulce, casi todos flotaban sin control. Tuvimos que hacer ajustes de emergencia antes de la inmersión. Ese día me prometí que siempre hablaría de este tema antes de cualquier cambio de entorno.</p>
 
 <p>La diferencia entre bucear en agua dulce y en agua salada no es un detalle menor: puede suponer entre 1,5 y 3 kilogramos de diferencia en el lastrado, dependiendo de tu complexión y del grosor de tu traje. Si no lo compensas, la inmersión será incómoda, peligrosa o simplemente imposible.</p>
@@ -293,6 +313,15 @@ export const articles = [
   {
     slug: 'neoprene-flotabilidad',
     title: 'El Neopreno y su Flotabilidad: Por qué el Traje de 7mm Necesita más Plomo',
+    excerpt: 'Un traje de 7mm puede necesitar hasta 8 kg más de lastre que bucear en bañador. Aprende cómo el neopreno pierde flotabilidad con la profundidad y el paso del tiempo, con tabla comparativa de marcas.',
+    image: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=1200&h=630&fit=crop&q=80',
+    imageAlt: 'Buceador con traje de neopreno preparándose para inmersión',
+    publishedAt: '2026-03-10',
+    faq: [
+      { q: '¿Cuánto lastre necesito con un traje de neopreno de 5mm?', a: 'Como punto de partida, un traje de 5mm añade unos 4-5 kg de flotabilidad positiva en superficie. A eso hay que añadir el lastre base por tu peso corporal (aproximadamente el 8-10% de tu peso en agua salada sin traje).' },
+      { q: '¿El neopreno pierde flotabilidad con el tiempo?', a: 'Sí. Las microburbujas de nitrógeno que dan flotabilidad al neopreno se van comprimiendo y perdiendo con el paso del tiempo y las inmersiones. Un traje de 5 años puede tener un 20-30% menos de flotabilidad que uno nuevo del mismo grosor.' },
+      { q: '¿Hay diferencia entre neopreno de diferentes marcas para el lastrado?', a: 'Sí, aunque es pequeña. Los neoprenos de mayor calidad (Cressi, Mares, Scubapro) suelen tener densidades más consistentes. El neopreno económico puede tener más variabilidad. Nuestra tabla comparativa muestra los valores típicos por marca.' },
+    ],
     content: `<p>El neopreno es uno de esos materiales que parece sencillo desde fuera pero tiene una física interna fascinante. Cuando doy clases de equipo en los cursos de perfeccionamiento de FEDAS, siempre dedico tiempo al neopreno porque es uno de los factores más malentendidos en el cálculo del lastrado. Un traje nuevo de 7mm puede requerir hasta 6-8 kg de lastre adicional respecto a bucear en bañador. Y un traje viejo de la misma medida puede requerir 1-2 kg menos que cuando era nuevo.</p>
 
 <p>En este artículo vamos a ver exactamente por qué el neopreno flota, cómo cambia esa flotabilidad con la profundidad, y cómo elegir y calcular el lastre para diferentes trajes disponibles en España.</p>
@@ -469,6 +498,15 @@ export const articles = [
   {
     slug: 'cinturon-plomos-buceo',
     title: 'Tipos de Cinturones de Plomos y Sistemas de Lastre en Buceo',
+    excerpt: 'Cinturón clásico, lastre integrado en BCD o trim weights: cuál elegir según tu estilo de buceo. Comparativa de sistemas con modelos disponibles en España y consejos de distribución.',
+    image: 'https://images.unsplash.com/photo-1590159983013-d4ba5c2bec40?w=1200&h=630&fit=crop&q=80',
+    imageAlt: 'Equipo de buceo con cinturón de plomos y BCD',
+    publishedAt: '2026-03-15',
+    faq: [
+      { q: '¿Es obligatorio el cinturón de liberación rápida en España?', a: 'La FEDAS y la normativa de buceo deportivo en España recomiendan (y en algunos centros exigen) el sistema de liberación rápida para lastres superiores a 6-8 kg. En inmersiones técnicas o a mayor profundidad, es prácticamente obligatorio por seguridad.' },
+      { q: '¿El lastre integrado en el BCD es mejor que el cinturón?', a: 'Para comodidad y distribución del peso, sí. El lastre integrado distribuye el peso por la cintura y los laterales del chaleco, mejorando la posición horizontal. El cinturón clásico es más económico y universal, pero puede resbalar si no está bien ajustado.' },
+      { q: '¿Qué son los trim weights y para qué sirven?', a: 'Los trim weights son pequeños plomos (0,5-2 kg) que se colocan en posiciones específicas del equipo (correas del botellín, pockets traseros del BCD) para afinar la posición horizontal del buceador. Son especialmente útiles para fotógrafos subacuáticos que necesitan una postura muy estable.' },
+    ],
     content: `<p>El cinturón de plomos es uno de los equipos más viejos del buceo. Antes de que existieran los chalecos BCD, los buceadores simplemente se colgaban plomos en la cintura y se tiraban al agua. Hoy en día los sistemas de lastre han evolucionado enormemente, pero el principio básico sigue siendo el mismo: poner suficiente plomo en el lugar adecuado del cuerpo para conseguir el lastre y el trim (posición horizontal) correctos.</p>
 
 <p>Lo que muchos buceadores no saben es que la elección del sistema de lastre no es solo una cuestión de comodidad: afecta directamente a la seguridad, a la posición horizontal en el agua y, en consecuencia, al consumo de aire. En este artículo vamos a ver todos los sistemas disponibles, cómo elegir el correcto y cómo configurarlo bien.</p>
@@ -614,6 +652,15 @@ export const articles = [
   {
     slug: 'ajuste-fino-lastrado',
     title: 'Cómo Hacer el Ajuste Fino del Lastrado: El Protocolo Paso a Paso',
+    excerpt: 'Protocolo de 3 pasos para calibrar tu lastre en el agua: test de superficie, test a 5 metros y test de botellín vacío. Incluye tabla acero vs aluminio y cómo afecta el cambio de peso corporal.',
+    image: 'https://images.unsplash.com/photo-1488829068083-58e9c3afea73?w=1200&h=630&fit=crop&q=80',
+    imageAlt: 'Buceador realizando ajuste de flotabilidad bajo el agua',
+    publishedAt: '2026-03-20',
+    faq: [
+      { q: '¿Con qué frecuencia debo repetir el ajuste fino?', a: 'Cada vez que cambies de traje, de tipo de agua, de cilindro (acero vs aluminio) o si tu peso corporal ha variado más de 5 kg. En general, una vez al año como mínimo, al inicio de la temporada.' },
+      { q: '¿Por qué el botellín de aluminio vacío flota más?', a: 'Un cilindro de aluminio de 12L pesa unos 2 kg menos vacío que lleno (el gas tiene masa). Además, el aluminio tiene una flotabilidad positiva intrínseca mayor que el acero. Al final de la inmersión con botellín de aluminio, puedes ser hasta 2-3 kg más positivo que al inicio.' },
+      { q: '¿Si he ganado 5 kg de peso, cuánto lastre debo añadir?', a: 'Aproximadamente 0,5-1 kg de lastre por cada 5 kg de peso corporal ganado, asumiendo que el resto del equipo no cambia. El tejido adiposo tiene una densidad similar al agua, por lo que el cambio de flotabilidad es modesto.' },
+    ],
     content: `<p>El ajuste fino del lastrado es, en mi experiencia después de miles de horas en el agua, la fase del proceso que más se salta y la que más incidentes evitaría si se hiciera siempre correctamente. He visto buceadores con cien inmersiones que nunca han hecho un test de flotabilidad riguroso. Van al agua, añaden "más o menos los de siempre" y confían en el BCD para compensar cualquier error. Funciona, más o menos. Pero no es buceo correcto, y eventualmente tiene consecuencias.</p>
 
 <p>En este artículo voy a darte el protocolo completo, paso a paso, que uso con todos mis alumnos de perfeccionamiento en la Costa Brava. No es complicado, pero requiere metodología y paciencia. El resultado es una diferencia enorme en comodidad, consumo de aire y seguridad.</p>

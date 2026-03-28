@@ -6,6 +6,10 @@ interface Article {
   slug: string
   title: string
   content: string
+  image?: string
+  imageAlt?: string
+  excerpt?: string
+  publishedAt?: string
 }
 
 interface BlogPostTemplateProps {
@@ -18,6 +22,7 @@ interface BlogPostTemplateProps {
   allArticles: Article[]
   price?: string
   nicheLabel?: string
+  readingTime?: number
 }
 
 function CTABox({ accentColor, title, price, nicheLabel }: { accentColor: string; title: string; price: string; nicheLabel: string }) {
@@ -66,6 +71,7 @@ export function BlogPostTemplate({
   allArticles,
   price = '4,99€',
   nicheLabel = 'proyecto',
+  readingTime,
 }: BlogPostTemplateProps) {
   const [firstHalf, secondHalf] = splitContent(article.content)
   const otherArticles = allArticles.filter((a) => a.slug !== article.slug)
@@ -101,13 +107,47 @@ export function BlogPostTemplate({
 
       <main className="max-w-4xl mx-auto px-4 py-6">
         <article className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
-          {/* Article header */}
-          <div style={{ backgroundColor: accentColor }} className="px-8 py-10 text-white">
-            <div className="text-sm font-semibold opacity-70 mb-3 uppercase tracking-wider">
-              {emoji} Guía Técnica
+          {/* Article hero image */}
+          {article.image ? (
+            <div className="relative h-64 sm:h-80 overflow-hidden">
+              <img
+                src={article.image}
+                alt={article.imageAlt || article.title}
+                className="w-full h-full object-cover"
+                loading="eager"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 px-8 py-6 text-white">
+                <div className="text-xs font-semibold opacity-80 mb-2 uppercase tracking-wider">
+                  {emoji} Guía Técnica
+                </div>
+                <h1 className="text-2xl sm:text-3xl font-extrabold leading-tight drop-shadow">{article.title}</h1>
+                <div className="flex items-center gap-4 mt-3 text-xs opacity-80">
+                  {article.publishedAt && (
+                    <time dateTime={article.publishedAt}>
+                      📅 {new Date(article.publishedAt).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}
+                    </time>
+                  )}
+                  {readingTime && <span>⏱ {readingTime} min de lectura</span>}
+                </div>
+              </div>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight">{article.title}</h1>
-          </div>
+          ) : (
+            <div style={{ backgroundColor: accentColor }} className="px-8 py-10 text-white">
+              <div className="text-sm font-semibold opacity-70 mb-3 uppercase tracking-wider">
+                {emoji} Guía Técnica
+              </div>
+              <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight">{article.title}</h1>
+              <div className="flex items-center gap-4 mt-3 text-sm opacity-80">
+                {article.publishedAt && (
+                  <time dateTime={article.publishedAt}>
+                    📅 {new Date(article.publishedAt).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}
+                  </time>
+                )}
+                {readingTime && <span>⏱ {readingTime} min de lectura</span>}
+              </div>
+            </div>
+          )}
 
           {/* Article body */}
           <div className="px-8 py-8">
