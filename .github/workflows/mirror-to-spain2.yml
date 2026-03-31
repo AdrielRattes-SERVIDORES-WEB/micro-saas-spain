@@ -15,10 +15,6 @@ jobs:
           fetch-depth: 0
 
       - name: Push to AdrielRattes/micro-saas-spain-2
-        env:
-          TOKEN: ${{ secrets.MIRROR_TOKEN }}
         run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git remote add spain2 "https://AdrielRattes-SERVIDORES-WEB:${TOKEN}@github.com/AdrielRattes-SERVIDORES-WEB/micro-saas-spain-2.git"
+          git remote add spain2 "https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com/AdrielRattes-SERVIDORES-WEB/micro-saas-spain-2.git"
           git push spain2 main --force
