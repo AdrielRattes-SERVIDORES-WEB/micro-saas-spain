@@ -1,10 +1,38 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { CookieBanner } from '../components/CookieBanner'
+import { appConfig } from './content'
+
+const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
+
 export const metadata: Metadata = {
-  title: 'Calculadora Impresión 3D | Precio con Coste de Luz España',
-  description: 'Calcula el precio real de tus piezas 3D incluyendo el coste eléctrico según los tramos PVPC de España. Material, electricidad y amortización incluidos.',
-  keywords: 'calculadora impresión 3D, coste electricidad España, precio piezas 3D, PVPC tramos luz, PLA PETG precio',
+  title: {
+    default: `${appConfig.title} | ${appConfig.tagline}`,
+    template: `%s | ${appConfig.title}`,
+  },
+  description: appConfig.description,
+  authors: [{ name: appConfig.title }],
+  openGraph: {
+    siteName: appConfig.title,
+    locale: 'es_ES',
+    type: 'website',
+    url: BASE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  alternates: { canonical: BASE_URL },
 }
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="es"><body>{children}</body></html>
+  return (
+    <html lang="es">
+      <body>
+        {children}
+        <CookieBanner />
+      </body>
+    </html>
+  )
 }

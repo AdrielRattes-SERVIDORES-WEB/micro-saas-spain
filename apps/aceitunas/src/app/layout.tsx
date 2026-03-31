@@ -1,22 +1,38 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { CookieBanner } from '../components/CookieBanner'
+import { appConfig } from './content'
+
+const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
 
 export const metadata: Metadata = {
-  title: 'Calculadora Cura de Aceitunas | Elimina el Amargor Perfectamente',
-  description: 'Calcula las cantidades exactas de sosa cáustica y sal para curar aceitunas en casa. Método tradicional español para aceitunas aliñadas perfectas.',
-  keywords: 'curar aceitunas, aceitunas aliñadas, sosa cáustica aceitunas, salmuera aceitunas, charcutería España, aceitunas caseras',
-  openGraph: {
-    title: 'Calculadora Cura de Aceitunas',
-    description: 'Elimina el amargor con las proporciones exactas de sosa y sal',
-    type: 'website',
-    locale: 'es_ES',
+  title: {
+    default: `${appConfig.title} | ${appConfig.tagline}`,
+    template: `%s | ${appConfig.title}`,
   },
+  description: appConfig.description,
+  authors: [{ name: appConfig.title }],
+  openGraph: {
+    siteName: appConfig.title,
+    locale: 'es_ES',
+    type: 'website',
+    url: BASE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  alternates: { canonical: BASE_URL },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        {children}
+        <CookieBanner />
+      </body>
     </html>
   )
 }

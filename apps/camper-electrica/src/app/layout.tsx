@@ -1,22 +1,38 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { CookieBanner } from '../components/CookieBanner'
+import { appConfig } from './content'
+
+const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
 
 export const metadata: Metadata = {
-  title: 'Calculadora Eléctrica Camper | Sección de Cable y Fusibles 12V/24V',
-  description: 'Calcula la sección correcta de cable y el fusible adecuado para tu instalación eléctrica de camper. Evita incendios con dimensionado profesional 12V/24V.',
-  keywords: 'instalación eléctrica camper, sección cable 12v, fusible camper, electricidad furgoneta camper, caída de tensión camper España',
-  openGraph: {
-    title: 'Calculadora Eléctrica Camper 12V/24V',
-    description: 'Dimensiona tu instalación sin riesgo de incendio',
-    type: 'website',
-    locale: 'es_ES',
+  title: {
+    default: `${appConfig.title} | ${appConfig.tagline}`,
+    template: `%s | ${appConfig.title}`,
   },
+  description: appConfig.description,
+  authors: [{ name: appConfig.title }],
+  openGraph: {
+    siteName: appConfig.title,
+    locale: 'es_ES',
+    type: 'website',
+    url: BASE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  alternates: { canonical: BASE_URL },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        {children}
+        <CookieBanner />
+      </body>
     </html>
   )
 }

@@ -2,20 +2,18 @@ import type { Metadata } from 'next'
 import { BlogFeedTemplate } from '@saas/ui/src/templates/BlogFeedTemplate'
 import { appConfig, articles } from './content'
 
-const BASE_URL = 'https://saas-lastro-buceo-268k70br2.vercel.app'
+const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
 
 export const metadata: Metadata = {
-  title: 'Blog de Guías Técnicas sobre Lastrado en Buceo',
-  description:
-    'Guías técnicas gratuitas: flotabilidad neutra, diferencias agua dulce vs salada, neoprene, tipos de cinturón y protocolo de ajuste fino. Calculadora profesional por 4,99€.',
+  title: `${appConfig.title} — Blog`,
+  description: appConfig.description,
   openGraph: {
-    title: 'Guías Técnicas de Lastrado en Buceo — Blog Gratuito',
-    description:
-      'Flotabilidad neutra, neoprene, agua dulce vs salada, cinturones de lastre y ajuste fino. Todo lo que necesitas saber antes de meterte al agua.',
+    title: `${appConfig.title} — Blog`,
+    description: appConfig.description,
     url: BASE_URL,
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Calculadora Lastrado Buceo',
+    siteName: appConfig.title,
   },
   alternates: { canonical: BASE_URL },
 }
@@ -23,23 +21,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Calculadora Lastrado Buceo',
+  name: appConfig.title,
   url: BASE_URL,
   description: appConfig.description,
   inLanguage: 'es',
-  potentialAction: {
-    '@type': 'ReadAction',
-    target: `${BASE_URL}/blog/{slug}`,
-  },
 }
 
 export default function Page() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <BlogFeedTemplate {...appConfig} articles={articles} />
     </>
   )

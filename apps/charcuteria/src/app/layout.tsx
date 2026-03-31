@@ -1,22 +1,38 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { CookieBanner } from '../components/CookieBanner'
+import { appConfig } from './content'
+
+const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Charcutería | Curar Embutidos en Casa con Precisión',
-  description: 'Calcula las cantidades exactas de sal, sal de cura y azúcar para embutidos caseros. Lomo, jamón, chorizo y más. Herramienta profesional para charcutería artesanal en España.',
-  keywords: 'charcutería casera, sal de cura, curar embutidos, lomo curado, jamón casero, calculadora charcutería España',
-  openGraph: {
-    title: 'Calculadora de Charcutería Profesional',
-    description: 'Curar embutidos con seguridad y precisión química',
-    type: 'website',
-    locale: 'es_ES',
+  title: {
+    default: `${appConfig.title} | ${appConfig.tagline}`,
+    template: `%s | ${appConfig.title}`,
   },
+  description: appConfig.description,
+  authors: [{ name: appConfig.title }],
+  openGraph: {
+    siteName: appConfig.title,
+    locale: 'es_ES',
+    type: 'website',
+    url: BASE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  alternates: { canonical: BASE_URL },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        {children}
+        <CookieBanner />
+      </body>
     </html>
   )
 }

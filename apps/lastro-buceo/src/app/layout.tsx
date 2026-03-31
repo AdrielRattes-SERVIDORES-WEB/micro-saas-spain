@@ -1,35 +1,29 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { CookieBanner } from '../components/CookieBanner'
+import { appConfig } from './content'
 
-const BASE_URL = 'https://saas-lastro-buceo-268k70br2.vercel.app'
+const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
 
 export const metadata: Metadata = {
   title: {
-    default: 'Calculadora Lastrado Buceo | Flotabilidad Neutra Perfecta',
-    template: '%s | Calculadora Lastrado Buceo',
+    default: `${appConfig.title} | ${appConfig.tagline}`,
+    template: `%s | ${appConfig.title}`,
   },
-  description: 'Calcula los kilos exactos de plomo para flotabilidad neutra en buceo. Considera neoprene, tipo de agua, cilindro y peso corporal.',
-  keywords: 'calculadora lastrado buceo, flotabilidad neutra, plomo buceo, cinturón plomos, buceo mediterráneo España, lastrado correcto buceo',
-  authors: [{ name: 'Calculadora Lastrado Buceo' }],
+  description: appConfig.description,
+  authors: [{ name: appConfig.title }],
   openGraph: {
-    siteName: 'Calculadora Lastrado Buceo',
+    siteName: appConfig.title,
     locale: 'es_ES',
     type: 'website',
     url: BASE_URL,
-  },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@lastrobuceo',
   },
   robots: {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true },
   },
-  alternates: {
-    canonical: BASE_URL,
-  },
+  alternates: { canonical: BASE_URL },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

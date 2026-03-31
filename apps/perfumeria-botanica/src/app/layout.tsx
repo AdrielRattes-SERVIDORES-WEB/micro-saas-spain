@@ -1,10 +1,38 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { CookieBanner } from '../components/CookieBanner'
+import { appConfig } from './content'
+
+const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
+
 export const metadata: Metadata = {
-  title: 'Calculadora Perfumería Botánica | Formula Perfumes con Aceites Esenciales',
-  description: 'Calcula las proporciones exactas de aceites esenciales y alcohol para formular perfumes EDP, EDT, EDC o aceite puro. División de notas tope, corazón y base.',
-  keywords: 'calculadora perfumería, aceites esenciales gotas, formula perfume EDP EDT, perfumería botánica España, notas base corazón tope',
+  title: {
+    default: `${appConfig.title} | ${appConfig.tagline}`,
+    template: `%s | ${appConfig.title}`,
+  },
+  description: appConfig.description,
+  authors: [{ name: appConfig.title }],
+  openGraph: {
+    siteName: appConfig.title,
+    locale: 'es_ES',
+    type: 'website',
+    url: BASE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  alternates: { canonical: BASE_URL },
 }
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="es"><body>{children}</body></html>
+  return (
+    <html lang="es">
+      <body>
+        {children}
+        <CookieBanner />
+      </body>
+    </html>
+  )
 }

@@ -1,10 +1,38 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { CookieBanner } from '../components/CookieBanner'
+import { appConfig } from './content'
+
+const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
+
 export const metadata: Metadata = {
-  title: 'Calculadora Fuente Pedales Guitarra | Evita Sobrecargas en Directo',
-  description: 'Calcula el consumo total en mA de todos tus pedales y la fuente de alimentación mínima necesaria. Detecta pedales con polaridad invertida.',
-  keywords: 'calculadora pedales guitarra, fuente alimentación pedales, mA pedales, pedalboard España, sobrecargar fuente pedales',
+  title: {
+    default: `${appConfig.title} | ${appConfig.tagline}`,
+    template: `%s | ${appConfig.title}`,
+  },
+  description: appConfig.description,
+  authors: [{ name: appConfig.title }],
+  openGraph: {
+    siteName: appConfig.title,
+    locale: 'es_ES',
+    type: 'website',
+    url: BASE_URL,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  alternates: { canonical: BASE_URL },
 }
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="es"><body>{children}</body></html>
+  return (
+    <html lang="es">
+      <body>
+        {children}
+        <CookieBanner />
+      </body>
+    </html>
+  )
 }
