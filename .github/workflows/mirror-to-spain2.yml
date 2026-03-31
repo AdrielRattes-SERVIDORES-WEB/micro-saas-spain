@@ -1,4 +1,4 @@
-name: Mirror to micro-saas-spain-2
+name: Mirror to micro-saas-spain-2 + Deploy Vercel
 
 on:
   push:
@@ -21,3 +21,20 @@ jobs:
         run: |
           git remote add spain2 "https://oauth2:${TOKEN}@github.com/AdrielRattes-SERVIDORES-WEB/micro-saas-spain-2.git"
           git push spain2 main --force
+
+      - name: Trigger Vercel deploy (lastro-buceo)
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          curl -s -X POST "https://api.vercel.com/v13/deployments?teamId=team_zpjmsb5jsyf6PjCACWMjPt5x" \
+            -H "Authorization: Bearer ${VERCEL_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "name": "saas-lastro-buceo",
+              "project": "prj_oyesCwHTDTQ0bZIPAIO4DsfUPUfL",
+              "gitSource": {
+                "type": "github",
+                "repoId": "1192576608",
+                "ref": "main"
+              }
+            }' | grep -o '"url":"[^"]*"' | head -1
