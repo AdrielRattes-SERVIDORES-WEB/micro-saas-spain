@@ -14,7 +14,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.MIRROR_SSH_KEY }}
+
       - name: Push to AdrielRattes/micro-saas-spain-2
         run: |
-          git remote add spain2 "https://x-access-token:${{ secrets.MIRROR_TOKEN }}@github.com/AdrielRattes-SERVIDORES-WEB/micro-saas-spain-2.git"
+          git remote add spain2 git@github.com:AdrielRattes-SERVIDORES-WEB/micro-saas-spain-2.git
           git push spain2 main --force
