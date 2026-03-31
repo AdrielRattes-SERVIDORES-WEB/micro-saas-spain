@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Footer } from '../components/Footer'
 
 interface CheckoutTemplateProps {
@@ -26,6 +26,11 @@ export function CheckoutTemplate({
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const emailRef = useRef(email)
+
+  useEffect(() => {
+    emailRef.current = email
+  }, [email])
 
   useEffect(() => {
     if (!paypalClientId || paypalClientId === 'PAYPAL_CLIENT_ID') return
@@ -40,7 +45,7 @@ export function CheckoutTemplate({
             const res = await fetch('/api/checkout/create', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ appSlug, email }),
+              body: JSON.stringify({ appSlug, email: emailRef.current }),
             })
             const data = await res.json()
             return data.orderID
@@ -50,12 +55,13 @@ export function CheckoutTemplate({
             const res = await fetch('/api/checkout/capture', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ orderID: data.orderID, appSlug, email }),
+              body: JSON.stringify({ orderID: data.orderID, appSlug, email: emailRef.current }),
             })
             const result = await res.json()
             if (result.success) {
               setStatus('success')
               setMessage(result.message || 'Pago completado. Redirigiendo...')
+              localStorage.setItem(`access_${appSlug}`, result.accessToken)
               setTimeout(() => {
                 window.location.href = `/dashboard?token=${result.accessToken}`
               }, 2000)
@@ -75,7 +81,7 @@ export function CheckoutTemplate({
     return () => {
       document.body.removeChild(script)
     }
-  }, [paypalClientId, email, appSlug])
+  }, [paypalClientId, appSlug])
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">

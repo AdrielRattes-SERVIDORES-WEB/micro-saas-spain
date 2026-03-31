@@ -70,9 +70,9 @@ export function DashboardTemplate({
   const [checking, setChecking] = useState(true)
 
   useEffect(() => {
-    // Check access via URL token or session
+    // Check access via URL token or localStorage
     const params = new URLSearchParams(window.location.search)
-    const token = params.get('token')
+    const token = params.get('token') || localStorage.getItem(`access_${appSlug}`)
     fetch('/api/auth/check', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
