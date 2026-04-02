@@ -40,6 +40,8 @@ export const articles = [
   },
   {
     slug: 'garreo-como-detectar',
+    image: '/blog/garreo-como-detectar.jpg',
+    imageAlt: 'garreo como detectar',
     title: 'Cómo Detectar que el Ancla está Garrando: Señales y Actuación',
     content: `<p>El garreo nocturno es una de las situaciones más peligrosas en la navegación costera. Detectarlo a tiempo puede evitar una varada o colisión con otra embarcación.</p><h4>Señales de garreo</h4><ul><li><strong>Visual:</strong> Las marcaciones visuales tomadas al fondear han cambiado. El barco no está en la misma posición relativa respecto a tierra.</li><li><strong>GPS:</strong> El rastro del GPS muestra movimiento continuo o circular. Las apps de fondeo (Anchor Watch, AnchorAlarm) alertan automáticamente.</li><li><strong>Táctil:</strong> Se nota vibración o trones en la cadena al bajar la mano por ella — el ancla está rodando por el fondo.</li><li><strong>Sonido:</strong> En silencio total, se puede escuchar el ancla arrastrando por el fondo rocoso.</li></ul><h4>Protocolo de actuación en garreo</h4><p>1. Enciende el motor inmediatamente.<br/>2. Intenta recuperar el ancla y reflondear con más escopo.<br/>3. Si no hay espacio, cambia de posición de fondeo.<br/>4. Como último recurso: el motor trabaja mientras aporreas el garreo.</p>`,
   },
