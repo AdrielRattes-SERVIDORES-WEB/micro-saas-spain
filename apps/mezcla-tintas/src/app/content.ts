@@ -33,6 +33,8 @@ export const articles = [
   },
   {
     slug: 'colores-militares-modelismo',
+    image: '/blog/colores-militares-modelismo.jpg',
+    imageAlt: 'colores militares modelismo',
     title: 'Cómo Conseguir Colores Militares Exactos: Referencias Ral, Federal Standard y Vallejo',
     content: `<p>Los colores militares históricos tienen referencias estandarizadas internacionalmente. Conocer las equivalencias entre sistemas te permite mezclar o encontrar el color correcto para cada vehículo o uniforme.</p><h4>Sistemas de referencia más usados</h4><ul><li><strong>RAL:</strong> Sistema europeo. RAL 7028 = Dark Yellow Alemán WWII. RAL 6003 = Olive Drab.</li><li><strong>Federal Standard 595:</strong> Sistema americano. FS 33105 = Olive Drab US Army.</li><li><strong>Vallejo Model Color:</strong> Tiene su propia numeración (ej: 70.924 = Russian Uniform).</li></ul><h4>Equivalencias clave WWII</h4><ul><li>Dunkelgelb (Amarillo oscuro alemán): RAL 7028 = Vallejo 70.978</li><li>Panzergrau (Gris panzer): RAL 7021 = Vallejo 70.869</li><li>Rotbraun (Rojo marrón): RAL 8017 = Vallejo 70.985</li><li>Olive Drab US: FS 33105 = Vallejo 70.887</li></ul>`,
   },
