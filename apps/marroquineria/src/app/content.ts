@@ -12,6 +12,8 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'tipos-cuero-vegetal-cromo',
+    image: '/blog/tipos-cuero-vegetal-cromo.jpg',
+    imageAlt: 'tipos cuero vegetal cromo',
     title: 'Cuero Vegetal vs Curtido al Cromo: Diferencias que Afectan al Precio',
     content: `<p>El tipo de cuero que usas determina no solo la calidad del producto final, sino también el precio que puedes cobrar. Hay dos grandes familias de cuero en el mercado artesanal español:</p><h4>Cuero curtido vegetalmente (Full Grain Veg Tan)</h4><p>Curtido con taninos naturales de corteza de árbol. El proceso dura entre 30 y 60 días. Es el preferido por los marroquineros artesanales porque:</p><ul><li>Envejece con gracia (patina natural con el uso)</li><li>Acepta tintes de agua perfectamente</li><li>Es más rígido, ideal para cinturones y fundas</li><li>Precio: 30-60€ por pie cuadrado en calidad premium</li></ul><h4>Cuero curtido al cromo</h4><p>Curtido con sales de cromo en 24-48 horas. Más suave, flexible y resistente al agua. Usado en bolsos, ropa y tapicería. Precio: 10-25€ por pie cuadrado. Menos valorado por los coleccionistas pero más práctico para ciertos artículos.</p>`,
   },
