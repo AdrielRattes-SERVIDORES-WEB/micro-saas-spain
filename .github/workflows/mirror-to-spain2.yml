@@ -25,3 +25,24 @@ jobs:
       - name: Trigger Vercel deploy (lastro-buceo)
         run: |
           curl -s -X POST "https://api.vercel.com/v1/integrations/deploy/prj_oyesCwHTDTQ0bZIPAIO4DsfUPUfL/jQszVptUAK"
+
+      - name: Trigger Vercel deploy (4 priority apps)
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          TEAM="team_zpjmsb5jsyf6PjCACWMjPt5x"
+          REPO_SPAIN=1192573841
+          REPO_SPAIN2=1192576608
+
+          deploy() {
+            curl -s -X POST "https://api.vercel.com/v13/deployments?teamId=${TEAM}&forceNew=1" \
+              -H "Authorization: Bearer ${VERCEL_TOKEN}" \
+              -H "Content-Type: application/json" \
+              -d "{\"name\":\"$1\",\"gitSource\":{\"type\":\"github\",\"repoId\":$2,\"ref\":\"main\"},\"target\":\"production\"}" \
+              | grep -o '"id":"[^"]*"' | head -1
+          }
+
+          echo "impresion-3d: $(deploy saas-impresion-3d ${REPO_SPAIN})"
+          echo "resina-epoxi: $(deploy saas-resina-epoxi ${REPO_SPAIN})"
+          echo "corte-madera: $(deploy saas-corte-madera ${REPO_SPAIN})"
+          echo "camper-electrica: $(deploy saas-camper-electrica ${REPO_SPAIN2})"
