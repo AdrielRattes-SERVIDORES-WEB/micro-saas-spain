@@ -33,11 +33,15 @@ export const articles = [
   },
   {
     slug: 'mejores-destinos-astrofotografia-espana',
+    image: '/blog/mejores-destinos-astrofotografia-espana.jpg',
+    imageAlt: 'mejores destinos astrofotografia espana',
     title: 'Los Mejores Lugares para Astrofotografía en España: Cielos Oscuros Certificados',
     content: `<p>España tiene algunos de los cielos más oscuros de Europa occidental. La baja densidad de población en ciertas zonas, combinada con el clima despejado de la meseta y las islas, crea condiciones excepcionales para la astrofotografía.</p><h4>Los mejores destinos por Bortle Scale</h4><ul><li><strong>Teide (Tenerife, Bortle 1-2):</strong> Reserva Starlight UNESCO. A 2.300m de altitud, sobre las nubes y lejos de la contaminación lumínica. Uno de los mejores del mundo.</li><li><strong>Roque de los Muchachos (La Palma, Bortle 1):</strong> Sede del Observatorio del Roque. El cielo más oscuro de España. Reserva de la Biosfera Starlight.</li><li><strong>Calar Alto (Almería, Bortle 2-3):</strong> Sierra de los Filabres. Observatorio astronómico de la Junta de Andalucía. Cielos excepcionales 200+ noches al año.</li><li><strong>Picos de Europa (Bortle 2-3):</strong> Especialmente Fuente Dé y Potes.</li><li><strong>Bardenas Reales (Navarra, Bortle 3):</strong> Paisaje marciano único para composiciones espectaculares.</li></ul>`,
   },
   {
     slug: 'apilado-imagenes-astrofotografia',
+    image: '/blog/apilado-imagenes-astrofotografia.jpg',
+    imageAlt: 'apilado imagenes astrofotografia',
     title: 'Image Stacking para Astrofotografía: Cómo Sumar Fotos para Reducir el Ruido',
     content: `<p>El <strong>apilado o stacking</strong> es la técnica más poderosa en astrofotografía: combinar múltiples exposiciones de la misma escena para promediar el ruido aleatorio y conservar la señal real de las estrellas.</p><h4>La matemática detrás del stacking</h4><p>El ruido en imagen digital es aleatorio (ruido gaussiano). Si apilas N imágenes idénticas, la señal (información real) se suma linealmente mientras el ruido se suma en cuadratura. El resultado: la relación señal/ruido mejora con la raíz cuadrada de N.</p><ul><li>4 imágenes: mejora ×2 (raíz de 4)</li><li>9 imágenes: mejora ×3</li><li>16 imágenes: mejora ×4</li><li>25 imágenes: mejora ×5</li></ul><h4>Software gratuito para stacking</h4><ul><li><strong>DeepSkyStacker (DSS):</strong> Windows. El estándar gratuito. Interfaz anticuada pero muy potente.</li><li><strong>Sequator:</strong> Windows. Más moderno que DSS, excelente para paisajes con estrellas (separa cielo de terreno).</li><li><strong>Siril:</strong> Windows/Mac/Linux. Open source. El más completo para procesado completo.</li></ul>`,
   },
