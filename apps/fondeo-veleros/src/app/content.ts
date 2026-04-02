@@ -12,6 +12,8 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'tipos-anclas-veleros-espana',
+    image: '/blog/tipos-anclas-veleros-espana.jpg',
+    imageAlt: 'tipos anclas veleros espana',
     title: 'Las Mejores Anclas para Navegar por España: Delta, CQR, Danforth y Rocna',
     content: `<p>El ancla es el sistema de seguridad más importante a bordo. En España, las condiciones de fondeo varían enormemente: fondos arenosos del Mediterráneo, roca de las rías gallegas y posidonia protegida en Baleares requieren anclas con características diferentes.</p><h4>Las anclas más usadas en España</h4><ul><li><strong>Delta (Lewmar Delta):</strong> La favorita del Mediterráneo. Excelente en arena, acepta bien el viraje. Hincha en la proa sin rodar. ~100-200€.</li><li><strong>CQR (Plow):</strong> Clásica articulada. Buena en arena y algas. Puede fallar en fondos duros. Las copias baratas de este diseño son poco fiables.</li><li><strong>Danforth (Fortress):</strong> Excelente en arena y barro. Pliega para guardar. Pésima en roca o posidonia. Ideal como ancla de proa secundaria o para anclar desde popa.</li><li><strong>Rocna/Manson Supreme/SPADE:</strong> Nueva generación. El mejor agarre en la mayoría de fondos. Precio elevado (~300-600€) pero justificado.</li></ul>`,
   },
