@@ -12,6 +12,8 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'por-que-aceitunas-amargan',
+    image: '/blog/por-que-aceitunas-amargan.jpg',
+    imageAlt: 'Realistic photo of fresh green olives hanging on o',
     title: '¿Por qué las Aceitunas del Árbol son Amargas? La Ciencia detrás',
     content: `<p>Las aceitunas frescas contienen un compuesto llamado <strong>oleuropeína</strong>, un glucósido fenólico que actúa como mecanismo de defensa natural del árbol. Es responsable del amargor intenso que hace imposible comerlas directamente del árbol.</p><p>La oleuropeína representa entre el 1-14% del peso seco de la aceituna verde y disminuye naturalmente durante la maduración, pero nunca desaparece por completo. Por eso el proceso de curado es necesario para hacerlas comestibles.</p><h4>Métodos de curado principales en España</h4><ul><li><strong>Con sosa (NaOH):</strong> El más rápido, hidroliza la oleuropeína en 8-12 horas</li><li><strong>Con sal seca:</strong> El más lento, tarda 2-3 meses pero conserva más matices</li><li><strong>En agua:</strong> Método tradicional, requiere cambios de agua durante 2-4 semanas</li><li><strong>Estilo griego (fermentación):</strong> En salmuera directamente, 6-12 meses</li></ul>`,
   },

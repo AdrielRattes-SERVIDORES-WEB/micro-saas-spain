@@ -316,6 +316,8 @@ export const articles = [
   },
   {
     slug: 'neoprene-flotabilidad',
+    image: '/blog/neoprene-flotabilidad.jpg',
+    imageAlt: 'Realistic photo of a scuba diver wearing black neo',
     title: 'El Neopreno y su Flotabilidad: Por qué el Traje de 7mm Necesita más Plomo',
     excerpt: 'Un traje de 7mm puede necesitar hasta 8 kg más de lastre que bucear en bañador. Aprende cómo el neopreno pierde flotabilidad con la profundidad y el paso del tiempo, con tabla comparativa de marcas.',
     image: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=1200&h=630&fit=crop&q=80',

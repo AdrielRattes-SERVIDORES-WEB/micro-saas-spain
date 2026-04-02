@@ -19,11 +19,15 @@ export const articles = [
   },
   {
     slug: 'regla-500-vs-npf',
+    image: '/blog/regla-500-vs-npf.jpg',
+    imageAlt: 'Realistic photo of camera on tripod under milky wa',
     title: 'La Regla de los 500 vs la Regla NPF: Cuál Usar con tu Cámara Moderna',
     content: `<p>Durante décadas, la <strong>Regla de los 500</strong> fue el estándar: divide 500 entre la distancia focal para obtener el tiempo máximo de exposición. Simple y efectiva... para cámaras de 12 megapíxeles.</p><p>Con las cámaras modernas de 24-50 megapíxeles y sensores más pequeños, la regla de los 500 ya no funciona bien. Los píxeles son tan pequeños que el trailing se hace visible antes de lo que la regla predice.</p><h4>Ejemplo comparativo</h4><p>Con una Sony A7 IV (33MP, Full Frame) y un objetivo 24mm f/2.8:</p><ul><li><strong>Regla 500:</strong> 500 / 24 = 20,8 segundos</li><li><strong>Regla NPF:</strong> ~8-10 segundos (según pixel pitch de ~4,3μm)</li></ul><p>Exponer 20 segundos con una cámara de 33MP producirá trailing perfectamente visible al hacer zoom en las estrellas. La regla NPF, desarrollada por investigadores de astrofotografía, da resultados precisos para cualquier combinación de cámara y objetivo.</p>`,
   },
   {
     slug: 'sensores-astrofotografia',
+    image: '/blog/sensores-astrofotografia.jpg',
+    imageAlt: 'Realistic photo of mirrorless camera sensor detail',
     title: 'Sensores Full Frame, APS-C y Micro 4/3: Cuál es Mejor para Astrofotografía',
     content: `<p>El tamaño del sensor tiene un impacto enorme en la astrofotografía. No solo afecta al campo de visión sino también al rendimiento en alta ISO y al tiempo máximo de exposición antes del trailing.</p><h4>Comparativa de sensores para astrofotografía</h4><ul><li><strong>Full Frame (35mm):</strong> El mejor. Mayor superficie = más luz capturada por píxel. ISO 3200-6400 usable sin demasiado ruido. El pixel pitch más grande = más segundos antes del trailing.</li><li><strong>APS-C:</strong> Buen equilibrio. Factor de recorte 1,5x (Nikon/Sony) o 1,6x (Canon). ISO 1600-3200 usable. El más popular entre aficionados serios por precio/rendimiento.</li><li><strong>Micro 4/3:</strong> Factor 2x. Más trailing visible en menos tiempo. Sin embargo, sus objetivos suelen tener distancias focales equivalentes más cortas, compensando algo la desventaja.</li></ul><h4>La trampa de los megapíxeles</h4><p>Más megapíxeles en el mismo tamaño de sensor = píxeles más pequeños = trailing más visible. Una Nikon D3500 de 24MP en APS-C tiene más restricciones de tiempo que una Nikon D700 de 12MP en Full Frame.</p>`,
   },
