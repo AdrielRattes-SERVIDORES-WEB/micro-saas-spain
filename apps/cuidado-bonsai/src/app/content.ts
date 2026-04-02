@@ -33,6 +33,8 @@ export const articles = [
   },
   {
     slug: 'abonado-bonsai',
+    image: '/blog/abonado-bonsai.jpg',
+    imageAlt: 'abonado bonsai',
     title: 'Calendario de Abonado para Bonsái: Qué, Cuándo y Cuánto',
     content: `<p>El abonado del bonsái sigue el ritmo de su ciclo vegetativo. Abonar en invierno cuando el árbol está dormido es inútil; no abonar en primavera cuando está en pleno crecimiento es perder la mejor oportunidad del año.</p><h4>Calendario general para España</h4><ul><li><strong>Primavera (marzo-mayo):</strong> Abono rico en nitrógeno (N alto). Estimula el crecimiento de hojas y ramas. Ej: NPK 10-5-5</li><li><strong>Verano (junio-agosto):</strong> Abono equilibrado. NPK 6-6-6. Mantiene sin estimular crecimiento excesivo con calor.</li><li><strong>Otoño (septiembre-noviembre):</strong> Abono rico en fósforo y potasio (N bajo). Endurece la madera para el invierno. Ej: NPK 3-10-10</li><li><strong>Invierno (diciembre-febrero):</strong> Sin abono para especies caducifolias. Abono muy reducido para perennifolios en zonas templadas.</li></ul>`,
   },
