@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
-  alternates: { canonical: BASE_URL },
+  alternates: { canonical: BASE_URL, languages: { 'es-ES': BASE_URL } },
   twitter: {
     card: 'summary_large_image',
     title: {
