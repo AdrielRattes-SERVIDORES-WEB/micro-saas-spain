@@ -40,6 +40,8 @@ export const articles = [
   },
   {
     slug: 'plataformas-vender-artesania',
+    image: '/blog/plataformas-vender-artesania.jpg',
+    imageAlt: 'plataformas vender artesania',
     title: 'Dónde Vender tu Marroquinería Artesanal en España',
     content: `<p>Vender artesanía en España tiene varias vías, cada una con sus ventajas e inconvenientes desde el punto de vista del precio y del margen:</p><h4>Plataformas online</h4><ul><li><strong>Etsy:</strong> La referencia mundial para artesanía. Audiencia internacional que valora y paga por lo artesanal. Comisión: 6.5% + cuota de publicación.</li><li><strong>Artesanio (España):</strong> Plataforma española especializada en artesanía. Comisión más baja, audiencia más local.</li><li><strong>Instagram + tienda propia:</strong> El combo más rentable a largo plazo. Sin comisiones, pero requiere construir audiencia.</li></ul><h4>Venta presencial</h4><ul><li><strong>Mercados de artesanía:</strong> Alta conversión, contacto directo. Busca los mercados de artesanos en tu municipio o comunidad.</li><li><strong>Tiendas concept store:</strong> Consignación (30-40% para la tienda) o precio mayorista.</li><li><strong>Ferias de artesanía:</strong> FIMART (Madrid), Feria de Artesanía de Sevilla, etc.</li></ul>`,
   },
