@@ -68,6 +68,8 @@ export const articles = [
   },
   {
     slug: 'higiene-charcuteria',
+    image: '/blog/higiene-charcuteria.jpg',
+    imageAlt: 'higiene charcuteria',
     title: 'Higiene y Seguridad Alimentaria en la Charcutería Doméstica',
     content: `
       <p>La higiene es la base de la charcutería segura. Los patógenos más comunes en carnes curadas son <em>Listeria monocytogenes</em>, <em>Salmonella</em> y <em>Clostridium botulinum</em>. Con las medidas correctas, todos son controlables.</p>
