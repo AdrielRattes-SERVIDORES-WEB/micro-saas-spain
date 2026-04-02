@@ -86,6 +86,8 @@ export const articles = [
   },
   {
     slug: 'errores-charcuteria',
+    image: '/blog/errores-charcuteria.jpg',
+    imageAlt: 'errores charcuteria',
     title: 'Los 5 Errores más Comunes al Curar Embutidos en Casa',
     content: `
       <p>La mayoría de los fallos en charcutería doméstica tienen la misma causa: falta de precisión en las medidas. Una báscula de cocina de precisión (0.1g) es la inversión más importante que puedes hacer.</p>
