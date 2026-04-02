@@ -26,6 +26,8 @@ export const articles = [
   },
   {
     slug: 'tecnicas-mezcla-modelismo',
+    image: '/blog/tecnicas-mezcla-modelismo.jpg',
+    imageAlt: 'tecnicas mezcla modelismo',
     title: 'Técnicas de Mezcla para Modelismo: Cómo Conseguir el Tono Exacto',
     content: `<p>Mezclar pinturas de modelismo es parte arte, parte química. La clave está en empezar siempre por el color más claro y añadir el oscuro gota a gota — es mucho más fácil oscurecer que aclarar.</p><h4>Protocolo de mezcla profesional</h4><p>1. <strong>Usa una paleta húmeda</strong> para que las pinturas acrílicas no se sequen mientras trabajas.<br/>2. <strong>Empieza por el blanco</strong> si el color final es claro.<br/>3. <strong>Añade el color saturado gota a gota</strong>, mezclando completamente después de cada gota.<br/>4. <strong>Apunta las proporciones</strong> exactas para poder reproducir el color más adelante.<br/>5. <strong>Haz una prueba en papel</strong> antes de aplicar a la miniatura — el color seco es siempre más oscuro que húmedo.</p><h4>Regla del secado</h4><p>Los acrílicos secan 15-20% más oscuros. Si el color te parece correcto en húmedo, probablemente quedará demasiado oscuro. Ajusta adelantando el tono hacia el claro.</p>`,
   },
