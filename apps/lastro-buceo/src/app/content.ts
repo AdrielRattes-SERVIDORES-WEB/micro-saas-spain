@@ -12,6 +12,8 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'flotabilidad-neutra-buceo',
+    image: '/blog/flotabilidad-neutra-buceo.jpg',
+    imageAlt: 'man in black and white diving suit under water',
     title: 'Por qué la Flotabilidad Neutra es la Habilidad más Importante en Buceo',
     excerpt: 'Dominar la flotabilidad neutra reduce el consumo de aire hasta un 40% y protege los fondos marinos. Aprende la física, los errores más comunes y cómo practicarla en la piscina.',
     image: '/images/flotabilidad-neutra-buceo.png',
@@ -138,6 +140,8 @@ export const articles = [
   },
   {
     slug: 'agua-dulce-vs-salada-buceo',
+    image: '/blog/agua-dulce-vs-salada-buceo.jpg',
+    imageAlt: 'silver ring on blue water',
     title: 'Diferencia entre Bucear en Agua Dulce y Salada: Cuánto Plomo Más Necesitas',
     excerpt: 'Descubre cuántos kilos de plomo adicionales necesitas al pasar del Mediterráneo a agua dulce. Con fórmula de Arquímedes, tabla por zonas de España y protocolo de ajuste paso a paso.',
     image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=630&fit=crop&q=80',
@@ -497,6 +501,8 @@ export const articles = [
   },
   {
     slug: 'cinturon-plomos-buceo',
+    image: '/blog/cinturon-plomos-buceo.jpg',
+    imageAlt: 'a pair of scissors on a book',
     title: 'Tipos de Cinturones de Plomos y Sistemas de Lastre en Buceo',
     excerpt: 'Cinturón clásico, lastre integrado en BCD o trim weights: cuál elegir según tu estilo de buceo. Comparativa de sistemas con modelos disponibles en España y consejos de distribución.',
     image: '/images/cinturon-plomos-buceo.png',
@@ -651,6 +657,8 @@ export const articles = [
   },
   {
     slug: 'ajuste-fino-lastrado',
+    image: '/blog/ajuste-fino-lastrado.jpg',
+    imageAlt: 'person in black wetsuit in water',
     title: 'Cómo Hacer el Ajuste Fino del Lastrado: El Protocolo Paso a Paso',
     excerpt: 'Protocolo de 3 pasos para calibrar tu lastre en el agua: test de superficie, test a 5 metros y test de botellín vacío. Incluye tabla acero vs aluminio y cómo afecta el cambio de peso corporal.',
     image: '/images/ajuste-fino-lastrado.png',
@@ -836,6 +844,8 @@ export const articles = [
   },
   {
     slug: 'mejores-puntos-buceo-costa-brava',
+    image: '/blog/mejores-puntos-buceo-costa-brava.jpg',
+    imageAlt: 'a large body of water sitting next to a lush green hillside',
     title: 'Los 7 Mejores Puntos de Buceo en la Costa Brava para Principiantes',
     excerpt: 'Descubre los 7 mejores puntos de buceo de la Costa Brava aptos para principiantes: profundidades, visibilidad, fauna y qué lastrado necesitas en cada zona.',
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=630&fit=crop&q=80',
@@ -950,6 +960,8 @@ export const articles = [
   },
   {
     slug: 'pecios-naufragios-buceo-espana',
+    image: '/blog/pecios-naufragios-buceo-espana.jpg',
+    imageAlt: 'A person in a scuba suit diving in the water',
     title: 'Top 5 Pecios (Naufragios) en España donde Necesitas Flotabilidad Perfecta',
     excerpt: 'Los 5 mejores pecios de España para bucear: profundidades, historia y por qué un lastrado incorrecto destruye la visibilidad y daña el patrimonio subacuático.',
     image: 'https://images.unsplash.com/photo-1551244072-5d12893278bc?w=1200&h=630&fit=crop&q=80',
@@ -1058,6 +1070,8 @@ export const articles = [
   },
   {
     slug: 'bucear-espana-invierno-destinos',
+    image: '/blog/bucear-espana-invierno-destinos.jpg',
+    imageAlt: 'Frozen stream flowing over rocks in winter',
     title: 'Dónde Bucear en España en Invierno: Top Destinos y Qué Traje Llevar',
     excerpt: 'Guía de buceo invernal en España: Canarias, Murcia, Almería y Costa Brava. Temperaturas del agua, trajes recomendados y cómo recalcular el lastrado al cambiar de neopreno.',
     image: 'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1200&h=630&fit=crop&q=80',
@@ -1156,6 +1170,8 @@ export const articles = [
   },
   {
     slug: 'reservas-marinas-espana-buceo',
+    image: '/blog/reservas-marinas-espana-buceo.jpg',
+    imageAlt: 'A seahorse hides among the seaweed.',
     title: 'Top 10 Reservas Marinas de España para Bucear: Normativas y Equipo',
     excerpt: 'Las 10 mejores reservas marinas de España para bucear, con normativas de acceso, fauna protegida y por qué el lastrado correcto es imprescindible para no llevarte una sanción.',
     image: 'https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=1200&h=630&fit=crop&q=80',
@@ -1262,6 +1278,8 @@ export const articles = [
   },
   {
     slug: 'viajar-avion-equipo-buceo',
+    image: '/blog/viajar-avion-equipo-buceo.jpg',
+    imageAlt: 'two scuba diver wearing scuba suit during daytime',
     title: 'Viajar en Avión con Equipo de Buceo: Guía para No Pagar Exceso de Equipaje',
     excerpt: 'Cómo volar con equipo de buceo sin pagar de más: qué llevar, qué alquilar en destino, aerolíneas más baratas para buceadores y cómo calcular el lastre que necesitarás.',
     image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=630&fit=crop&q=80',
@@ -1370,6 +1388,8 @@ export const articles = [
   },
   {
     slug: 'bucear-islas-canarias-guia',
+    image: '/blog/bucear-islas-canarias-guia.jpg',
+    imageAlt: 'Ocean view with buildings lining the coast.',
     title: 'Bucear en las Islas Canarias: Guía Completa de Temperatura, Traje y Lastrado',
     excerpt: 'Todo sobre el buceo en Canarias: temperaturas por isla, fauna atlántica, trajes recomendados y cómo el agua más cálida cambia el lastrado respecto al Mediterráneo.',
     image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=630&fit=crop&q=80',
@@ -1458,6 +1478,8 @@ export const articles = [
   },
   {
     slug: 'consumir-menos-aire-botella-buceo',
+    image: '/blog/consumir-menos-aire-botella-buceo.jpg',
+    imageAlt: 'A diver swims through clear blue ocean water.',
     title: 'Cómo Consumir Menos Aire del Botellín: 12 Trucos Probados por Instructores',
     excerpt: 'Consume hasta un 40% menos de aire en cada inmersión con estos 12 trucos de instructores: desde la respiración diafragmática hasta el lastrado perfecto. Guía práctica con ejercicios.',
     image: 'https://images.unsplash.com/photo-1544551763-46a013bb7f44?w=1200&h=630&fit=crop&q=80',
@@ -1558,6 +1580,8 @@ export const articles = [
   },
   {
     slug: 'equipo-buceo-principiantes-guia',
+    image: '/blog/equipo-buceo-principiantes-guia.jpg',
+    imageAlt: 'a row of diving equipment hanging on a boat',
     title: 'Guía de Equipo de Buceo para Principiantes: Qué Comprar Primero (y Qué No)',
     excerpt: 'Guía de compra de equipo de buceo para principiantes: qué comprar en el primer año, qué esperar, marcas recomendadas en España y cómo evitar gastar de más.',
     image: 'https://images.unsplash.com/photo-1590159983013-d4ba5c2bec40?w=1200&h=630&fit=crop&q=80',
@@ -1672,6 +1696,8 @@ export const articles = [
   },
   {
     slug: 'cuanto-cuesta-titulo-buceo-open-water-espana',
+    image: '/blog/cuanto-cuesta-titulo-buceo-open-water-espana.jpg',
+    imageAlt: 'person wearing diving suit in body of water',
     title: 'Cuánto Cuesta Sacarse el Título de Buceo Open Water en España (2026)',
     excerpt: 'Precios actualizados del curso Open Water en España: PADI vs FEDAS, qué incluye, dónde es más barato y qué necesitas preparar antes del primer día.',
     image: 'https://images.unsplash.com/photo-1488829068083-58e9c3afea73?w=1200&h=630&fit=crop&q=80',
@@ -1766,6 +1792,8 @@ export const articles = [
   },
   {
     slug: 'errores-primer-ano-buceo',
+    image: '/blog/errores-primer-ano-buceo.jpg',
+    imageAlt: 'two persons in body of water',
     title: 'Los 5 Errores más Comunes en el Primer Año de Buceo y Cómo Evitarlos',
     excerpt: 'Los 5 errores que comete casi todo el mundo en el primer año de buceo: lastrado incorrecto, equipo mal elegido, mala planificación y cómo resolverlos antes de que se conviertan en hábito.',
     image: 'https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=1200&h=630&fit=crop&q=80',

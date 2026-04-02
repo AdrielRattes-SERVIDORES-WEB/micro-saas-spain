@@ -12,6 +12,8 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'trailing-estrellas-explicacion',
+    image: '/blog/trailing-estrellas-explicacion.jpg',
+    imageAlt: 'background pattern',
     title: 'Por qué las Estrellas se Convierten en Trazos: La Rotación Terrestre y tu Cámara',
     content: `<p>La Tierra gira sobre su eje a una velocidad de 15° por hora (360° en 24 horas). Para una cámara fija apuntando al cielo, las estrellas se mueven respecto al sensor a esa velocidad. Si la exposición es demasiado larga, cada estrella dejará un trazo en lugar de un punto.</p><p>Este fenómeno, llamado <strong>trailing o arrastre</strong>, depende de cuatro factores: la longitud focal de la lente, el tamaño de los píxeles del sensor, la declinación a la que apunta la cámara y, por supuesto, el tiempo de exposición.</p><h4>La importancia de la región del cielo</h4><p>Las estrellas cercanas a la Estrella Polar (Polaris) se mueven muy poco — son casi estacionarias. Las estrellas en el ecuador celeste (declinación 0°) se mueven a la velocidad máxima. La regla NPF contempla este factor con la función coseno de la declinación, aunque para simplificar se asume siempre el peor caso (ecuador celeste).</p>`,
   },
