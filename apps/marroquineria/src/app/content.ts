@@ -26,6 +26,8 @@ export const articles = [
   },
   {
     slug: 'precios-cuero-espana',
+    image: '/blog/precios-cuero-espana.jpg',
+    imageAlt: 'precios cuero espana',
     title: 'Dónde Comprar Cuero en España y Precios Actuales del Mercado',
     content: `<p>El abastecimiento de cuero en España se concentra en Ubrique (Cádiz) — la capital española de la marroquinería — y en Barcelona. Conocer los precios del mercado es esencial para calcular correctamente tus costes.</p><h4>Proveedores principales en España</h4><ul><li><strong>Curtidos Badalona / Pielcolor (Barcelona):</strong> Excelente selección de veg tan y cuero de vacuno. Venta al público desde 2 pies cuadrados.</li><li><strong>Marroquinería Ubrique:</strong> Precio de origen, especialmente para cuero de primera calidad.</li><li><strong>Tandy Leather (online):</strong> Referencia mundial para veg tan, envíos desde EE.UU. con IVA en frontera.</li><li><strong>Springfield Leather (online):</strong> Alternativa americana con buen rango de precios.</li></ul><h4>Precios orientativos 2024-2025</h4><ul><li>Veg tan 3-4mm (suela): 20-35€/pie²</li><li>Veg tan 1-2mm (marroquinería fina): 15-25€/pie²</li><li>Cromo-curtido suave (bolsos): 8-18€/pie²</li></ul>`,
   },
