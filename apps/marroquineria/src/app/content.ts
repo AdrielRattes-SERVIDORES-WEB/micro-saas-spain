@@ -33,6 +33,8 @@ export const articles = [
   },
   {
     slug: 'como-poner-precio-artesania',
+    image: '/blog/como-poner-precio-artesania.jpg',
+    imageAlt: 'como poner precio artesania',
     title: 'Fórmula para Poner Precio Justo a tus Artesanías de Cuero',
     content: `<p>El error más común de los artesanos principiantes es calcular el precio solo con el coste del material. Esto lleva invariablemente a vender por debajo del coste real y terminar frustrándose con el negocio.</p><h4>La fórmula correcta</h4><p><strong>Precio de venta = (Material + Mano de obra + Costes indirectos) × Factor de margen</strong></p><ul><li><strong>Material:</strong> Cuero + herrajes + hilo + consumibles (pegamento, tinte, etc.)</li><li><strong>Mano de obra:</strong> Tus horas × tu tarifa por hora. La tarifa mínima recomendada es el Salario Mínimo Interprofesional de España dividido entre las horas mensuales (~8€/h bruto). Para artesanía de calidad, 15-25€/h es más realista.</li><li><strong>Costes indirectos:</strong> Amortización de herramientas, alquiler del espacio, electricidad. Normalmente un 15-20% adicional.</li><li><strong>Factor de margen:</strong> Para venta directa: 2-3x. Para venta a tiendas (precio mayorista): el margen debe ser mayor para que la tienda pueda recargar su 50-100%.</li></ul>`,
   },
