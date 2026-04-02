@@ -19,6 +19,8 @@ export const articles = [
   },
   {
     slug: 'marcas-pintura-modelismo-espana',
+    image: '/blog/marcas-pintura-modelismo-espana.jpg',
+    imageAlt: 'marcas pintura modelismo espana',
     title: 'Vallejo, AK Interactive y Citadel: Guía de Marcas para Modelismo en España',
     content: `<p>España es sede de dos de las marcas de referencia mundial en pintura para modelismo: <strong>Vallejo</strong> (Vallejo Model Color, Game Color) y <strong>AK Interactive</strong>. Entender las diferencias entre sistemas te ayuda a mezclar colores compatibles.</p><h4>Principales marcas y sus características</h4><ul><li><strong>Vallejo Model Color:</strong> Base agua. 200+ colores. El estándar para maquetas militares. Gotas perfectamente medibles gracias al gotero.</li><li><strong>Vallejo Game Color:</strong> Base agua. Formulado para colores vivos de miniaturas de fantasía.</li><li><strong>AK Interactive:</strong> Múltiples líneas (Real Colors, 3rd Gen, AMMO). Excelente para efectos de weathering.</li><li><strong>Citadel (Games Workshop):</strong> Base agua. Tarro en lugar de gotero — dificulta la medición exacta. Sistema propio de capas (Base, Layer, Shade, Highlight).</li><li><strong>Andrea Color:</strong> Española también. Especializada en figuras históricas.</li></ul>`,
   },
