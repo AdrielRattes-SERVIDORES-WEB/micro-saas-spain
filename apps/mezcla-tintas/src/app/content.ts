@@ -40,6 +40,8 @@ export const articles = [
   },
   {
     slug: 'almacenaje-pinturas-modelismo',
+    image: '/blog/almacenaje-pinturas-modelismo.jpg',
+    imageAlt: 'almacenaje pinturas modelismo',
     title: 'Almacenaje y Conservación de Pinturas de Modelismo: Evita que se Sequen',
     content: `<p>Las pinturas acrílicas para modelismo tienen una vida útil de 2-5 años si se almacenan correctamente. Con malas condiciones, pueden secarse en meses.</p><h4>Factores que arruinan las pinturas</h4><ul><li><strong>Temperatura extrema:</strong> No expongas a más de 30°C ni a menos de 5°C. Los ciclos de congelación-descongelación destruyen los aglutinantes.</li><li><strong>Luz solar directa:</strong> Los pigmentos se degradan y decoloran.</li><li><strong>Tapa sucia:</strong> Los restos de pintura en la rosca o gotero se secan y sellan el bote.</li></ul><h4>Trucos de conservación</h4><ul><li>Guarda los botes boca abajo para que el pigmento no se separe del aglutinante.</li><li>Añade 2-3 gotas de agua destilada si la pintura se espesa, no agua del grifo (el cloro la daña).</li><li>Una bolita de acero inoxidable dentro del bote facilita el mezclado.</li><li>Si una pintura está completamente seca, no la tires: disuélvela con retarder y úsala como wash.</li></ul>`,
   },
