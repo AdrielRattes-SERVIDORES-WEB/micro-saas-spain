@@ -17,6 +17,8 @@ export const articles = [
   },
   {
     slug: 'fuentes-alimentacion-pedales',
+    image: '/blog/fuentes-alimentacion-pedales.jpg',
+    imageAlt: 'fuentes alimentacion pedales',
     title: 'Fuentes de Alimentación para Pedales: Diferencias entre Salidas Aisladas y No Aisladas',
     content: `<p>No todas las fuentes de pedales son iguales. La diferencia entre salidas aisladas y compartidas es enorme en términos de ruido.</p><h4>Fuentes con salidas NO aisladas (daisy chain)</h4><p>El cable daisy chain conecta varios pedales al mismo cable de alimentación. Económico pero problemático: cualquier interferencia en un pedal se transmite a todos los demás. Funciona aceptablemente solo con pedales analógicos sencillos de bajo consumo.</p><h4>Fuentes con salidas AISLADAS</h4><p>Cada salida tiene su propio transformador independiente. El ruido de un pedal no afecta a los demás. <strong>Obligatorio si tienes pedales digitales (delay, reverb, looper) combinados con analógicos</strong>.</p><h4>Fuentes recomendadas en España (con IVA incluido)</h4><ul><li>Truetone 1 Spot Pro CS7: ~120€. 7 salidas aisladas.</li><li>MXR DC Brick: ~80€. 10 salidas, 4 aisladas.</li><li>Strymon Zuma: ~250€. El premium. 9 salidas completamente aisladas.</li><li>Harley Benton PowerPlant ISO-2: ~35€. Económica con 2 salidas aisladas.</li></ul>`,
   },
