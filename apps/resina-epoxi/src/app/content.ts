@@ -45,6 +45,7 @@ export const articles = [
   },
   {
     slug: 'proporcion-ab-resina',
+    publishedAt: '2024-12-11',
     image: '/blog/proporcion-ab-resina.jpg',
     imageAlt: 'a wooden table topped with flowers on top of a hard wood floor',
     title: 'Proporción A:B Correcta y por qué NO puedes aproximarla',
@@ -78,6 +79,7 @@ export const articles = [
   },
   {
     slug: 'preparacion-molde-epoxi',
+    publishedAt: '2024-10-18',
     image: '/blog/preparacion-molde-epoxi.jpg',
     imageAlt: 'A person in a yellow shirt and white gloves',
     title: 'Preparación del Molde para Mesa de Río: Materiales y Técnica',
@@ -116,6 +118,7 @@ conteudo: <p>Verter resina epoxi en un molde y ver cómo se forma un cristal lí
   },
   {
     slug: 'evitar-burbujas-epoxi',
+    publishedAt: '2024-11-25',
     image: '/blog/evitar-burbujas-epoxi.jpg',
     imageAlt: 'a close up of a red and white object with drops of water on it',
     title: 'Cómo Eliminar las Burbujas de la Resina Epoxi',
@@ -154,6 +157,7 @@ conteudo: <p>Hay una ley en el mundo de los polímeros sintéticos que todo arte
   },
   {
     slug: 'lijado-pulido-epoxi',
+    publishedAt: '2024-12-04',
     image: '/blog/lijado-pulido-epoxi.jpg',
     imageAlt: 'a man sanding a car with a polisher',
     title: 'Cómo Lijar y Pulir Resina Epoxi hasta conseguir Espejo',
@@ -197,6 +201,7 @@ conteudo: <p>Llevo años fabricando mesas de río (River Tables) y encapsulados 
   },
   {
     slug: 'calcular-volumen-exacto-resina-epoxi-mesas-rio',
+    publishedAt: '2025-03-28',
     image: '/blog/calcular-volumen-exacto-resina-epoxi-mesas-rio.jpg',
     imageAlt: 'a wooden table topped with flowers on top of a hard wood floor',
     title: 'Cómo Calcular el Volumen Exacto de Resina Epoxi para Mesas Río y No Perder Dinero',
@@ -204,6 +209,7 @@ conteudo: <p>Llevo años fabricando mesas de río (River Tables) y encapsulados 
   },
   {
     slug: 'mezclar-resina-epoxi-peso-vs-volumen-proporciones',
+    publishedAt: '2025-01-05',
     image: '/blog/mezclar-resina-epoxi-peso-vs-volumen-proporciones.jpg',
     imageAlt: 'shallow focus photo of person holding glass cup',
     title: 'El Error Letal: Mezclar Resina Epoxi por Volumen en Lugar de Peso',
@@ -211,6 +217,7 @@ conteudo: <p>Llevo años fabricando mesas de río (River Tables) y encapsulados 
   },
   {
     slug: 'reaccion-exotermica-temperatura-curado-resina-epoxi',
+    publishedAt: '2025-02-10',
     image: '/blog/reaccion-exotermica-temperatura-curado-resina-epoxi.jpg',
     imageAlt: 'a wooden table topped with flowers on top of a hard wood floor',
     title: 'Por Qué tu Resina Hierve y Humea: El Peligro de la Reacción Exotérmica',
@@ -218,6 +225,7 @@ conteudo: <p>Llevo años fabricando mesas de río (River Tables) y encapsulados 
   },
   {
     slug: 'evitar-burbujas-resina-epoxi-guia-expertos',
+    publishedAt: '2025-03-15',
     image: '/blog/evitar-burbujas-resina-epoxi-guia-expertos.jpg',
     imageAlt: 'Epoxy resin being poured into a wooden mold',
     title: 'Cómo Evitar Burbujas en la Resina Epoxi: La Guía Definitiva de los Expertos',
@@ -225,6 +233,7 @@ conteudo: <p>Llevo años fabricando mesas de río (River Tables) y encapsulados 
   },
   {
     slug: 'por-que-la-resina-epoxi-se-pone-amarilla-evitarlo',
+    publishedAt: '2025-01-20',
     image: '/blog/por-que-la-resina-epoxi-se-pone-amarilla-evitarlo.jpg',
     imageAlt: 'a person that is cutting a piece of wood',
     title: 'Resina Epoxi Amarilla: Por Qué Ocurre y Cómo Evitar el Envejecimiento',

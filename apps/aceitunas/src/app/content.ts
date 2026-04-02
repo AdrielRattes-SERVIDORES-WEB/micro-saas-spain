@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'por-que-aceitunas-amargan',
+    publishedAt: '2024-12-16',
     image: '/blog/por-que-aceitunas-amargan.jpg',
     imageAlt: 'Realistic photo of fresh green olives hanging on o',
     title: '¿Por qué las Aceitunas del Árbol son Amargas? La Ciencia detrás',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'sosa-caustica-aceitunas',
+    publishedAt: '2024-10-23',
     image: '/blog/sosa-caustica-aceitunas.jpg',
     imageAlt: 'Olives are being processed on a conveyor belt.',
     title: 'Cómo Usar la Sosa Cáustica en Aceitunas de Forma Segura',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'salmuera-conservacion',
+    publishedAt: '2024-11-02',
     image: '/blog/salmuera-conservacion.jpg',
     imageAlt: 'green and yellow leaves in clear glass jar',
     title: 'La Salmuera Perfecta para Conservar Aceitunas todo el Año',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'variedades-aceitunas-espana',
+    publishedAt: '2024-12-09',
     image: '/blog/variedades-aceitunas-espana.jpg',
     imageAlt: 'green and yellow fruit on brown wooden bowl',
     title: 'Variedades de Aceituna en España y su Idoneidad para el Aliño',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'aliñado-aceitunas',
+    publishedAt: '2024-10-16',
     image: '/blog/aliñado-aceitunas.jpg',
     imageAlt: 'Green olives in a small white bowl.',
     title: 'Recetas de Aliño para Aceitunas: Hierbas, Especias y Marinados',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'calcular-concentracion-salmuera-curar-aceitunas-grados-baume',
+    publishedAt: '2025-03-08',
     image: '/blog/calcular-concentracion-salmuera-curar-aceitunas-grados-baume.jpg',
     imageAlt: 'cooked food in white ceramic plate',
     title: 'Cómo Calcular la Salmuera Perfecta para Curar Aceitunas sin que se Pudran',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'eliminar-amargor-aceitunas-soda-caustica-metodo-tradicional',
+    publishedAt: '2025-01-13',
     image: '/blog/eliminar-amargor-aceitunas-soda-caustica-metodo-tradicional.jpg',
     imageAlt: 'a hand holding a bunch of green and black olives',
     title: 'Eliminar el Amargor: Sosa Cáustica Rápida vs Curado Tradicional en Agua',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'fermentacion-lactica-aceitunas-ph-conservacion-largo-plazo',
+    publishedAt: '2025-02-18',
     image: '/blog/fermentacion-lactica-aceitunas-ph-conservacion-largo-plazo.jpg',
     imageAlt: 'a bowl of olives and a jar of olives',
     title: 'El Secreto de la Fermentación Láctica: Cómo Conservar Aceitunas Todo el Año',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'recetas-alinos-tradicionales-conservacion-aceitunas-aceite-oliva',
+    publishedAt: '2025-03-23',
     image: '/blog/recetas-alinos-tradicionales-conservacion-aceitunas-aceite-oliva.jpg',
     imageAlt: 'A container filled with green olives and a spoon',
     title: 'Aliños Tradicionales y el Peligro de Conservar Aceitunas en Aceite',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'identificar-aceitunas-podridas-zapateria-hongos-toxicos',
+    publishedAt: '2025-01-28',
     image: '/blog/identificar-aceitunas-podridas-zapateria-hongos-toxicos.jpg',
     imageAlt: 'Olives are being processed on a conveyor belt.',
     title: 'Cómo Identificar Aceitunas Estropeadas: Zapatería, Hongos y Mal Olor',

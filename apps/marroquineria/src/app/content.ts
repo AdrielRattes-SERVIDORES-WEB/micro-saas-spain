@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'tipos-cuero-vegetal-cromo',
+    publishedAt: '2024-11-03',
     image: '/blog/tipos-cuero-vegetal-cromo.jpg',
     imageAlt: 'tipos cuero vegetal cromo',
     title: 'Cuero Vegetal vs Curtido al Cromo: Diferencias que Afectan al Precio',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'herramientas-basicas-marroquineria',
+    publishedAt: '2024-12-10',
     image: '/blog/herramientas-basicas-marroquineria.jpg',
     imageAlt: 'herramientas basicas marroquineria',
     title: 'Herramientas Básicas para Empezar en Marroquinería',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'precios-cuero-espana',
+    publishedAt: '2024-10-17',
     image: '/blog/precios-cuero-espana.jpg',
     imageAlt: 'precios cuero espana',
     title: 'Dónde Comprar Cuero en España y Precios Actuales del Mercado',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'como-poner-precio-artesania',
+    publishedAt: '2024-11-24',
     image: '/blog/como-poner-precio-artesania.jpg',
     imageAlt: 'como poner precio artesania',
     title: 'Fórmula para Poner Precio Justo a tus Artesanías de Cuero',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'plataformas-vender-artesania',
+    publishedAt: '2024-12-03',
     image: '/blog/plataformas-vender-artesania.jpg',
     imageAlt: 'plataformas vender artesania',
     title: 'Dónde Vender tu Marroquinería Artesanal en España',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'calcular-pies-cuadrados-consumo-cuero-patron',
+    publishedAt: '2025-03-18',
     image: '/blog/calcular-pies-cuadrados-consumo-cuero-patron.jpg',
     imageAlt: 'calcular pies cuadrados consumo cuero patron',
     title: 'Cómo Calcular los Pies Cuadrados de Cuero para tu Patrón y Evitar Quedarte Corto',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'factor-merma-rendimiento-cuero-marroquineria',
+    publishedAt: '2025-01-23',
     image: '/blog/factor-merma-rendimiento-cuero-marroquineria.jpg',
     imageAlt: 'factor merma rendimiento cuero marroquineria',
     title: 'El Factor de Merma: Por Qué el 30% de tu Cuero Termina en la Basura',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'conversion-onzas-milimetros-grosor-cuero-marroquineria',
+    publishedAt: '2025-02-28',
     image: '/blog/conversion-onzas-milimetros-grosor-cuero-marroquineria.jpg',
     imageAlt: 'conversion onzas milimetros grosor cuero marroquineria',
     title: 'De Onzas a Milímetros: La Guía Definitiva del Grosor del Cuero',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'calcular-hilo-costura-mano-guarnicionero-cuero',
+    publishedAt: '2025-03-05',
     image: '/blog/calcular-hilo-costura-mano-guarnicionero-cuero.jpg',
     imageAlt: 'calcular hilo costura mano guarnicionero cuero',
     title: 'Cómo Calcular la Longitud del Hilo para Costura a Mano (Puntada de Guarnicionero)',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'formula-precio-venta-artesania-cuero-marroquineria',
+    publishedAt: '2025-01-10',
     image: '/blog/formula-precio-venta-artesania-cuero-marroquineria.jpg',
     imageAlt: 'formula precio venta artesania cuero marroquineria',
     title: 'La Fórmula Profesional para Calcular el Precio de Venta en Marroquinería',

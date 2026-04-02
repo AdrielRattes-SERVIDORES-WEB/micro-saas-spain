@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'sal-nitro-charcuteria',
+    publishedAt: '2024-11-22',
     image: '/blog/sal-nitro-charcuteria.jpg',
     imageAlt: 'sal nitro charcuteria',
     title: '¿Qué es la Sal de Cura y por qué es Obligatoria en Charcutería?',
@@ -29,6 +30,7 @@ export const articles = [
   },
   {
     slug: 'proporciones-sal-charcuteria',
+    publishedAt: '2024-12-01',
     image: '/blog/proporciones-sal-charcuteria.jpg',
     imageAlt: 'proporciones sal charcuteria',
     title: 'La Proporción Correcta de Sal para cada Tipo de Embutido',
@@ -46,6 +48,7 @@ export const articles = [
   },
   {
     slug: 'tiempos-secado-embutidos',
+    publishedAt: '2024-10-08',
     image: '/blog/tiempos-secado-embutidos.jpg',
     imageAlt: 'tiempos secado embutidos',
     title: 'Tiempos de Secado y Maduración según el Tipo de Embutido',
@@ -68,6 +71,7 @@ export const articles = [
   },
   {
     slug: 'higiene-charcuteria',
+    publishedAt: '2024-11-15',
     image: '/blog/higiene-charcuteria.jpg',
     imageAlt: 'higiene charcuteria',
     title: 'Higiene y Seguridad Alimentaria en la Charcutería Doméstica',
@@ -86,6 +90,7 @@ export const articles = [
   },
   {
     slug: 'errores-charcuteria',
+    publishedAt: '2024-12-22',
     image: '/blog/errores-charcuteria.jpg',
     imageAlt: 'errores charcuteria',
     title: 'Los 5 Errores más Comunes al Curar Embutidos en Casa',
@@ -105,6 +110,7 @@ export const articles = [
   },
   {
     slug: 'control-ph-fermentacion-cultivos-iniciadores-bactoferm-salami',
+    publishedAt: '2025-03-12',
     image: '/blog/control-ph-fermentacion-cultivos-iniciadores-bactoferm-salami.jpg',
     imageAlt: 'control ph fermentacion cultivos iniciadores bactoferm salami',
     title: 'Control de pH en Charcutería: Por Qué Necesitas Cultivos Iniciadores (Bactoferm)',
@@ -112,6 +118,7 @@ export const articles = [
   },
   {
     slug: 'parametros-camara-maduracion-embutidos-temperatura-humedad',
+    publishedAt: '2025-01-17',
     image: '/blog/parametros-camara-maduracion-embutidos-temperatura-humedad.jpg',
     imageAlt: 'parametros camara maduracion embutidos temperatura humedad',
     title: 'Temperatura y Humedad Ideal para Curar Embutidos: El Secado en Anillo',
@@ -119,6 +126,7 @@ export const articles = [
   },
   {
     slug: 'calcular-perdida-peso-merma-curado-embutidos',
+    publishedAt: '2025-02-22',
     image: '/blog/calcular-perdida-peso-merma-curado-embutidos.jpg',
     imageAlt: 'calcular perdida peso merma curado embutidos',
     title: 'Cómo Calcular la Pérdida de Peso (Merma) para Saber Cuándo tu Salami Está Listo',
@@ -126,6 +134,7 @@ export const articles = [
   },
   {
     slug: 'guia-calibres-tripas-naturales-colageno-charcuteria',
+    publishedAt: '2025-03-27',
     image: '/blog/guia-calibres-tripas-naturales-colageno-charcuteria.jpg',
     imageAlt: 'guia calibres tripas naturales colageno charcuteria',
     title: 'Guía de Tripas para Charcutería: Calibres, Preparación y Usos',
@@ -133,6 +142,7 @@ export const articles = [
   },
   {
     slug: 'ahumado-frio-vs-caliente-carnes-curadas-temperaturas',
+    publishedAt: '2025-01-04',
     image: '/blog/ahumado-frio-vs-caliente-carnes-curadas-temperaturas.jpg',
     imageAlt: 'ahumado frio vs caliente carnes curadas temperaturas',
     title: 'Ahumado en Frío vs Ahumado en Caliente: Temperaturas y Seguridad',

@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'ruido-señal-guitarra-pedales',
+    publishedAt: '2024-10-09',
     image: '/blog/ruido-señal-guitarra-pedales.jpg',
     imageAlt: 'multi-colored guitar distortion and guitar pedals',
     title: 'El Ruido en la Señal de Guitarra: Por qué Ocurre y Cómo Eliminarlo',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'fuentes-alimentacion-pedales',
+    publishedAt: '2024-11-16',
     image: '/blog/fuentes-alimentacion-pedales.jpg',
     imageAlt: 'fuentes alimentacion pedales',
     title: 'Fuentes de Alimentación para Pedales: Diferencias entre Salidas Aisladas y No Aisladas',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'pedales-mayor-consumo',
+    publishedAt: '2024-12-23',
     image: '/blog/pedales-mayor-consumo.jpg',
     imageAlt: 'pedales mayor consumo',
     title: 'Los Pedales que más Consumen: Digitales, Reverbs y Polyphonic',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'polaridad-invertida-pedales',
+    publishedAt: '2024-10-02',
     image: '/blog/polaridad-invertida-pedales.jpg',
     imageAlt: 'a bunch of different types of electronic equipment',
     title: 'Polaridad Invertida en Pedales: El Error que Destruye tu Equipo',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'pedalboard-compacto',
+    publishedAt: '2024-11-09',
     image: '/blog/pedalboard-compacto.jpg',
     imageAlt: 'person wearing Vans old skool sneakers',
     title: 'Construir un Pedalboard Compacto y Silencioso: Guía Práctica',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'calcular-miliamperios-voltaje-pedalboard-fuente',
+    publishedAt: '2025-03-22',
     image: '/blog/calcular-miliamperios-voltaje-pedalboard-fuente.jpg',
     imageAlt: 'several pedals and pedals sitting on top of a rug',
     title: 'Cómo Calcular los Miliamperios y Voltaje para tu Pedalboard sin Quemar Nada',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'eliminar-ruido-masa-ground-loop-pedales-guitarra',
+    publishedAt: '2025-01-27',
     image: '/blog/eliminar-ruido-masa-ground-loop-pedales-guitarra.jpg',
     imageAlt: 'black and brown guitar pedal',
     title: 'Cómo Eliminar el Ruido de Masa (Ground Loop) en tu Pedalera',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'orden-correcto-pedales-efectos-cadena-senal',
+    publishedAt: '2025-02-04',
     image: '/blog/orden-correcto-pedales-efectos-cadena-senal.jpg',
     imageAlt: 'A pair of orange and white sneakers sitting on top of a black floor',
     title: 'El Orden de los Pedales de Guitarra: La Guía Definitiva de la Cadena de Señal',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'true-bypass-vs-buffered-pedales-guitarra-perdida-tono',
+    publishedAt: '2025-03-09',
     image: '/blog/true-bypass-vs-buffered-pedales-guitarra-perdida-tono.jpg',
     imageAlt: 'true bypass vs buffered pedales guitarra perdida tono',
     title: 'True Bypass vs Buffered: La Verdad Sobre la Pérdida de Tono en Cables Largos',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'bucle-efectos-amplificador-fx-loop-cuatro-cables',
+    publishedAt: '2025-01-14',
     image: '/blog/bucle-efectos-amplificador-fx-loop-cuatro-cables.jpg',
     imageAlt: 'black and gray audio mixer',
     title: 'El Método de los 4 Cables: Cómo Usar el Bucle de Efectos (FX Loop) de tu Amplificador',

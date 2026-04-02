@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'trailing-estrellas-explicacion',
+    publishedAt: '2024-10-19',
     image: '/blog/trailing-estrellas-explicacion.jpg',
     imageAlt: 'background pattern',
     title: 'Por qué las Estrellas se Convierten en Trazos: La Rotación Terrestre y tu Cámara',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'regla-500-vs-npf',
+    publishedAt: '2024-11-26',
     image: '/blog/regla-500-vs-npf.jpg',
     imageAlt: 'Realistic photo of camera on tripod under milky wa',
     title: 'La Regla de los 500 vs la Regla NPF: Cuál Usar con tu Cámara Moderna',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'sensores-astrofotografia',
+    publishedAt: '2024-12-05',
     image: '/blog/sensores-astrofotografia.jpg',
     imageAlt: 'Realistic photo of mirrorless camera sensor detail',
     title: 'Sensores Full Frame, APS-C y Micro 4/3: Cuál es Mejor para Astrofotografía',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'mejores-destinos-astrofotografia-espana',
+    publishedAt: '2024-10-12',
     image: '/blog/mejores-destinos-astrofotografia-espana.jpg',
     imageAlt: 'mejores destinos astrofotografia espana',
     title: 'Los Mejores Lugares para Astrofotografía en España: Cielos Oscuros Certificados',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'apilado-imagenes-astrofotografia',
+    publishedAt: '2024-11-19',
     image: '/blog/apilado-imagenes-astrofotografia.jpg',
     imageAlt: 'apilado imagenes astrofotografia',
     title: 'Image Stacking para Astrofotografía: Cómo Sumar Fotos para Reducir el Ruido',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'regla-500-vs-regla-npf-estrellas-movidas-trazas',
+    publishedAt: '2025-03-10',
     image: '/blog/regla-500-vs-regla-npf-estrellas-movidas-trazas.jpg',
     imageAlt: 'regla 500 vs regla npf estrellas movidas trazas',
     title: 'La Regla de los 500 ha Muerto: Por Qué tus Estrellas Salen Movidas y Cómo Usar la Regla NPF',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'factor-recorte-crop-factor-astrofotografia-focal-real',
+    publishedAt: '2025-01-15',
     image: '/blog/factor-recorte-crop-factor-astrofotografia-focal-real.jpg',
     imageAlt: 'factor recorte crop factor astrofotografia focal real',
     title: 'El Factor de Recorte en Astrofotografía: Cómo Calcular tu Distancia Focal Real',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'mito-iso-bajo-invarianza-triangulo-exposicion-astrofotografia',
+    publishedAt: '2025-02-20',
     image: '/blog/mito-iso-bajo-invarianza-triangulo-exposicion-astrofotografia.jpg',
     imageAlt: 'mito iso bajo invarianza triangulo exposicion astrofotografia',
     title: 'El Mito del ISO Bajo: Cómo Dominar la Invarianza ISO en Astrofotografía Nocturna',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'calcular-tiempo-integracion-apilado-stacking-astrofotografia',
+    publishedAt: '2025-03-25',
     image: '/blog/calcular-tiempo-integracion-apilado-stacking-astrofotografia.jpg',
     imageAlt: 'calcular tiempo integracion apilado stacking astrofotografia',
     title: 'El Secreto del Apilado (Stacking): Cómo Calcular el Tiempo de Integración para Eliminar el Ruido',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'escala-bortle-ajustar-exposicion-contaminacion-luminica',
+    publishedAt: '2025-01-02',
     image: '/blog/escala-bortle-ajustar-exposicion-contaminacion-luminica.jpg',
     imageAlt: 'escala bortle ajustar exposicion contaminacion luminica',
     title: 'La Escala Bortle: Cómo Ajustar tu Exposición Según la Contaminación Lumínica',

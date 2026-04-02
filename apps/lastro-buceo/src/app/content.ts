@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'flotabilidad-neutra-buceo',
+    publishedAt: '2024-11-13',
     image: '/blog/flotabilidad-neutra-buceo.jpg',
     imageAlt: 'man in black and white diving suit under water',
     title: 'Por qué la Flotabilidad Neutra es la Habilidad más Importante en Buceo',
@@ -140,6 +141,7 @@ export const articles = [
   },
   {
     slug: 'agua-dulce-vs-salada-buceo',
+    publishedAt: '2024-12-20',
     image: '/blog/agua-dulce-vs-salada-buceo.jpg',
     imageAlt: 'silver ring on blue water',
     title: 'Diferencia entre Bucear en Agua Dulce y Salada: Cuánto Plomo Más Necesitas',
@@ -316,6 +318,7 @@ export const articles = [
   },
   {
     slug: 'neoprene-flotabilidad',
+    publishedAt: '2024-10-27',
     image: '/blog/neoprene-flotabilidad.jpg',
     imageAlt: 'Realistic photo of a scuba diver wearing black neo',
     title: 'El Neopreno y su Flotabilidad: Por qué el Traje de 7mm Necesita más Plomo',
@@ -503,6 +506,7 @@ export const articles = [
   },
   {
     slug: 'cinturon-plomos-buceo',
+    publishedAt: '2024-11-06',
     image: '/blog/cinturon-plomos-buceo.jpg',
     imageAlt: 'a pair of scissors on a book',
     title: 'Tipos de Cinturones de Plomos y Sistemas de Lastre en Buceo',
@@ -659,6 +663,7 @@ export const articles = [
   },
   {
     slug: 'ajuste-fino-lastrado',
+    publishedAt: '2024-12-13',
     image: '/blog/ajuste-fino-lastrado.jpg',
     imageAlt: 'person in black wetsuit in water',
     title: 'Cómo Hacer el Ajuste Fino del Lastrado: El Protocolo Paso a Paso',
@@ -846,6 +851,7 @@ export const articles = [
   },
   {
     slug: 'mejores-puntos-buceo-costa-brava',
+    publishedAt: '2025-03-06',
     image: '/blog/mejores-puntos-buceo-costa-brava.jpg',
     imageAlt: 'a large body of water sitting next to a lush green hillside',
     title: 'Los 7 Mejores Puntos de Buceo en la Costa Brava para Principiantes',
@@ -962,6 +968,7 @@ export const articles = [
   },
   {
     slug: 'pecios-naufragios-buceo-espana',
+    publishedAt: '2025-01-11',
     image: '/blog/pecios-naufragios-buceo-espana.jpg',
     imageAlt: 'A person in a scuba suit diving in the water',
     title: 'Top 5 Pecios (Naufragios) en España donde Necesitas Flotabilidad Perfecta',
@@ -1072,6 +1079,7 @@ export const articles = [
   },
   {
     slug: 'bucear-espana-invierno-destinos',
+    publishedAt: '2025-02-16',
     image: '/blog/bucear-espana-invierno-destinos.jpg',
     imageAlt: 'Frozen stream flowing over rocks in winter',
     title: 'Dónde Bucear en España en Invierno: Top Destinos y Qué Traje Llevar',
@@ -1172,6 +1180,7 @@ export const articles = [
   },
   {
     slug: 'reservas-marinas-espana-buceo',
+    publishedAt: '2025-03-21',
     image: '/blog/reservas-marinas-espana-buceo.jpg',
     imageAlt: 'A seahorse hides among the seaweed.',
     title: 'Top 10 Reservas Marinas de España para Bucear: Normativas y Equipo',
@@ -1280,6 +1289,7 @@ export const articles = [
   },
   {
     slug: 'viajar-avion-equipo-buceo',
+    publishedAt: '2025-01-26',
     image: '/blog/viajar-avion-equipo-buceo.jpg',
     imageAlt: 'two scuba diver wearing scuba suit during daytime',
     title: 'Viajar en Avión con Equipo de Buceo: Guía para No Pagar Exceso de Equipaje',
@@ -1390,6 +1400,7 @@ export const articles = [
   },
   {
     slug: 'bucear-islas-canarias-guia',
+    publishedAt: '2025-02-03',
     image: '/blog/bucear-islas-canarias-guia.jpg',
     imageAlt: 'Ocean view with buildings lining the coast.',
     title: 'Bucear en las Islas Canarias: Guía Completa de Temperatura, Traje y Lastrado',
@@ -1480,6 +1491,7 @@ export const articles = [
   },
   {
     slug: 'consumir-menos-aire-botella-buceo',
+    publishedAt: '2025-03-08',
     image: '/blog/consumir-menos-aire-botella-buceo.jpg',
     imageAlt: 'A diver swims through clear blue ocean water.',
     title: 'Cómo Consumir Menos Aire del Botellín: 12 Trucos Probados por Instructores',
@@ -1582,6 +1594,7 @@ export const articles = [
   },
   {
     slug: 'equipo-buceo-principiantes-guia',
+    publishedAt: '2025-01-13',
     image: '/blog/equipo-buceo-principiantes-guia.jpg',
     imageAlt: 'a row of diving equipment hanging on a boat',
     title: 'Guía de Equipo de Buceo para Principiantes: Qué Comprar Primero (y Qué No)',
@@ -1698,6 +1711,7 @@ export const articles = [
   },
   {
     slug: 'cuanto-cuesta-titulo-buceo-open-water-espana',
+    publishedAt: '2025-02-18',
     image: '/blog/cuanto-cuesta-titulo-buceo-open-water-espana.jpg',
     imageAlt: 'person wearing diving suit in body of water',
     title: 'Cuánto Cuesta Sacarse el Título de Buceo Open Water en España (2026)',
@@ -1794,6 +1808,7 @@ export const articles = [
   },
   {
     slug: 'errores-primer-ano-buceo',
+    publishedAt: '2025-03-23',
     image: '/blog/errores-primer-ano-buceo.jpg',
     imageAlt: 'two persons in body of water',
     title: 'Los 5 Errores más Comunes en el Primer Año de Buceo y Cómo Evitarlos',

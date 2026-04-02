@@ -50,6 +50,7 @@ export const articles = [
   },
   {
     slug: 'materiales-impresion-3d-precio',
+    publishedAt: '2024-11-08',
     image: '/blog/materiales-impresion-3d-precio.jpg',
     imageAlt: 'Woman holding colorful beaded necklace in workshop',
     title: 'Coste Real de los Materiales: PLA, PETG, ABS y Resina en España',
@@ -84,6 +85,7 @@ export const articles = [
   },
   {
     slug: 'amortizacion-impresora-3d',
+    publishedAt: '2024-12-15',
     image: '/blog/amortizacion-impresora-3d.jpg',
     imageAlt: 'black and silver electronic devices on white table',
     title: 'Cómo Calcular la Amortización de tu Impresora 3D por Hora',
@@ -123,6 +125,7 @@ export const articles = [
   },
   {
     slug: 'precio-venta-piezas-3d',
+    publishedAt: '2024-10-22',
     image: '/blog/precio-venta-piezas-3d.jpg',
     imageAlt: 'a laptop computer sitting on top of a table',
     title: 'Cómo Poner Precio a tus Piezas 3D para Vender en España',
@@ -165,6 +168,7 @@ export const articles = [
   },
   {
     slug: 'optimizar-tiempo-impresion',
+    publishedAt: '2024-11-01',
     image: '/blog/optimizar-tiempo-impresion.jpg',
     imageAlt: 'a close up of a machine with wires attached to it',
     title: 'Optimizar Velocidad vs Calidad: El Equilibrio que Define tu Beneficio',
@@ -195,6 +199,7 @@ export const articles = [
   },
   {
     slug: 'calcular-coste-real-impresion-3d',
+    publishedAt: '2025-03-26',
     image: '/blog/calcular-coste-real-impresion-3d.jpg',
     imageAlt: 'A 3D printer is in action printing a model.',
     title: 'Cómo Calcular el Coste Real de una Pieza en Impresión 3D y No Perder Dinero',
@@ -202,6 +207,7 @@ export const articles = [
   },
   {
     slug: 'cobrar-soportes-fallos-tiempo-laminado-3d',
+    publishedAt: '2025-01-03',
     image: '/blog/cobrar-soportes-fallos-tiempo-laminado-3d.jpg',
     imageAlt: 'Two gray 3D printed objects with intricate supports',
     title: 'Por Qué Debes Cobrar los Soportes, Fallos y Tiempo de Laminado en Impresión 3D',
@@ -209,6 +215,7 @@ export const articles = [
   },
   {
     slug: 'diferencia-coste-pla-petg-abs-impresion-3d',
+    publishedAt: '2025-02-08',
     image: '/blog/diferencia-coste-pla-petg-abs-impresion-3d.jpg',
     imageAlt: 'A room filled with lots of tools and equipment',
     title: 'Diferencia de Coste Real al Imprimir PLA, PETG o ABS',
@@ -216,6 +223,7 @@ export const articles = [
   },
   {
     slug: 'calcular-amortizacion-impresora-3d-granja',
+    publishedAt: '2025-03-13',
     image: '/blog/calcular-amortizacion-impresora-3d-granja.jpg',
     imageAlt: 'Multiple 3D printers running in a workshop',
     title: 'Cómo Calcular la Amortización de tu Impresora 3D para No Quebrar',
@@ -252,6 +260,7 @@ export const articles = [
   },
   {
     slug: 'cobrar-tiempo-laminado-slicer-diseno-3d',
+    publishedAt: '2025-01-18',
     image: '/blog/cobrar-tiempo-laminado-slicer-diseno-3d.jpg',
     imageAlt: 'black samsung flat screen computer monitor',
     title: 'El Coste Oculto: Por Qué Debes Cobrar tu Tiempo de Laminado (Slicer)',

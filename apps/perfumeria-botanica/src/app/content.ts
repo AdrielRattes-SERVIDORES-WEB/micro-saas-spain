@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'notas-perfume-tope-corazon-base',
+    publishedAt: '2024-11-12',
     image: '/blog/notas-perfume-tope-corazon-base.jpg',
     imageAlt: 'a bottle of perfume sitting on a bed next to a bottle of wine',
     title: 'Las Notas de Tope, Corazón y Base: El ADN de Cualquier Perfume',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'aceites-esenciales-perfumeria',
+    publishedAt: '2024-12-19',
     image: '/blog/aceites-esenciales-perfumeria.jpg',
     imageAlt: 'a group of three bottles sitting next to each other',
     title: 'Los Aceites Esenciales más Versátiles para Empezar en Perfumería',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'diferencia-edt-edp-parfum',
+    publishedAt: '2024-10-26',
     image: '/blog/diferencia-edt-edp-parfum.jpg',
     imageAlt: 'gold perfume bottle on white textile',
     title: 'EDT, EDP, Parfum y Colonia: Diferencias Reales de Concentración y Precio',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'construir-fragancia-desde-cero',
+    publishedAt: '2024-11-05',
     image: '/blog/construir-fragancia-desde-cero.jpg',
     imageAlt: 'close-up of a person pouring liquid into a glass',
     title: 'Cómo Construir una Fragancia Desde Cero: El Método del Acordeón',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'comprar-aceites-esenciales-espana',
+    publishedAt: '2024-12-12',
     image: '/blog/comprar-aceites-esenciales-espana.jpg',
     imageAlt: 'assorted-color via lot on brown surface',
     title: 'Dónde Comprar Aceites Esenciales para Perfumería en España: Guía de Proveedores',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'calcular-dilucion-aceites-esenciales-ifra',
+    publishedAt: '2025-03-24',
     image: '/blog/calcular-dilucion-aceites-esenciales-ifra.jpg',
     imageAlt: 'a hand touching a bottle of essential oils',
     title: 'Cómo Calcular la Dilución de Aceites Esenciales Según la Normativa IFRA',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'matematica-piramide-olfativa-pesos-perfumeria',
+    publishedAt: '2025-01-01',
     image: '/blog/matematica-piramide-olfativa-pesos-perfumeria.jpg',
     imageAlt: 'a table topped with lots of bottles and a book',
     title: 'La Matemática de la Pirámide Olfativa: Pesando Notas de Salida, Corazón y Fondo',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'diluyente-base-alcohol-proyeccion-perfume',
+    publishedAt: '2025-02-06',
     image: '/blog/diluyente-base-alcohol-proyeccion-perfume.jpg',
     imageAlt: 'clear and white spray bottle',
     title: 'Diluyente Base: Por Qué el Porcentaje de Alcohol Dicta la Proyección del Perfume',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'tiempos-maceracion-quimica-formula-perfume',
+    publishedAt: '2025-03-11',
     image: '/blog/tiempos-maceracion-quimica-formula-perfume.jpg',
     imageAlt: 'a table topped with lots of bottles filled with liquid',
     title: 'Tiempos de Maceración: Cómo la Química Transforma tu Fórmula en un Mes',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'escalar-formula-perfume-sin-alterar-aroma',
+    publishedAt: '2025-01-16',
     image: '/blog/escalar-formula-perfume-sin-alterar-aroma.jpg',
     imageAlt: 'a bottle of liquid being filled with liquid',
     title: 'De 10ml a 1 Litro: Cómo Escalar tu Fórmula de Perfume sin Perder el Aroma',

@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'sal-maduracion-queso',
+    publishedAt: '2024-12-15',
     image: '/blog/sal-maduracion-queso.jpg',
     imageAlt: 'a pair of shoes sitting on top of a wooden bench',
     title: 'El Papel de la Sal en la Maduración del Queso: Mucho más que Sabor',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'quesos-espana-artesanales',
+    publishedAt: '2024-10-22',
     image: '/blog/quesos-espana-artesanales.jpg',
     imageAlt: 'quesos espana artesanales',
     title: 'Los Quesos Artesanales más Elaborados en Casa en España',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'proceso-basico-queseria',
+    publishedAt: '2024-11-01',
     image: '/blog/proceso-basico-queseria.jpg',
     imageAlt: 'two people are washing their hands in a sink',
     title: 'Proceso Básico de Quesería Artesanal: Del Cuajado al Salado',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'temperatura-humedad-maduración',
+    publishedAt: '2024-12-08',
     image: '/blog/temperatura-humedad-maduración.jpg',
     imageAlt: 'a shelf filled with lots of cheese on top of wooden shelves',
     title: 'Temperatura y Humedad en la Cueva de Maduración Casera',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'errores-queso-casero',
+    publishedAt: '2024-10-15',
     image: '/blog/errores-queso-casero.jpg',
     imageAlt: 'person slicing pizza on brown wooden table',
     title: 'Los Errores más Comunes al Hacer Queso en Casa (y Cómo Evitarlos)',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'medir-ajustar-grados-baume-salmuera-quesos',
+    publishedAt: '2025-03-26',
     image: '/blog/medir-ajustar-grados-baume-salmuera-quesos.jpg',
     imageAlt: 'white and orange ballpoint pen on white printer paper',
     title: 'Cómo Medir y Ajustar los Grados Baumé en la Salmuera de Quesos',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'evitar-queso-baboso-cloruro-calcico-salmuera',
+    publishedAt: '2025-01-03',
     image: '/blog/evitar-queso-baboso-cloruro-calcico-salmuera.jpg',
     imageAlt: 'two people are washing their hands in a sink',
     title: 'Por Qué tu Queso se Pone Baboso en la Salmuera: El Cloruro Cálcico',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'control-ph-salmuera-evitar-corteza-blanda',
+    publishedAt: '2025-02-08',
     image: '/blog/control-ph-salmuera-evitar-corteza-blanda.jpg',
     imageAlt: 'a store filled with lots of different types of cheese',
     title: 'Control de pH en la Salmuera: El Secreto de las Cortezas Incorruptibles',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'filtrado-saneamiento-salmuera-quesos',
+    publishedAt: '2025-03-13',
     image: '/blog/filtrado-saneamiento-salmuera-quesos.jpg',
     imageAlt: 'filtrado saneamiento salmuera quesos',
     title: 'Filtrado y Saneamiento: Cómo Mantener tu Salmuera Viva por Años',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'tiempos-inmersion-queso-salmuera-tamano',
+    publishedAt: '2025-01-18',
     image: '/blog/tiempos-inmersion-queso-salmuera-tamano.jpg',
     imageAlt: 'tiempos inmersion queso salmuera tamano',
     title: 'Tiempos de Inmersión: Cuántas Horas Debe Estar un Queso en la Salmuera',

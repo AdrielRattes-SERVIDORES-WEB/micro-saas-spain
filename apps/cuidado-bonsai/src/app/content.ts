@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'bonsai-diferente-otras-plantas',
+    publishedAt: '2024-12-25',
     image: '/blog/bonsai-diferente-otras-plantas.jpg',
     imageAlt: 'bonsai diferente otras plantas',
     title: 'Por qué el Bonsái es Diferente a Cualquier Otra Planta de Interior',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'sustrato-bonsai-espana',
+    publishedAt: '2024-10-04',
     image: '/blog/sustrato-bonsai-espana.jpg',
     imageAlt: 'sustrato bonsai espana',
     title: 'El Sustrato Correcto para Bonsái en España: Akadama, Pumita y Kiryu',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'riego-bonsai-verano-espana',
+    publishedAt: '2024-11-11',
     image: '/blog/riego-bonsai-verano-espana.jpg',
     imageAlt: 'riego bonsai verano espana',
     title: 'Riego en Verano en España: El Mayor Reto del Bonsái en Climas Cálidos',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'abonado-bonsai',
+    publishedAt: '2024-12-18',
     image: '/blog/abonado-bonsai.jpg',
     imageAlt: 'abonado bonsai',
     title: 'Calendario de Abonado para Bonsái: Qué, Cuándo y Cuánto',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'herramientas-bonsai-basicas',
+    publishedAt: '2024-10-25',
     image: '/blog/herramientas-bonsai-basicas.jpg',
     imageAlt: 'herramientas bonsai basicas',
     title: 'Herramientas Básicas de Bonsái: Qué Comprar Primero en España',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'proporciones-mezcla-sustrato-akadama-kiryuzuna-pomice-bonsai',
+    publishedAt: '2025-03-14',
     image: '/blog/proporciones-mezcla-sustrato-akadama-kiryuzuna-pomice-bonsai.jpg',
     imageAlt: 'proporciones mezcla sustrato akadama kiryuzuna pomice bonsai',
     title: 'La Mezcla Perfecta: Cómo Calcular las Proporciones de Akadama, Kiryuzuna y Pomice',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'granulometria-calcular-retencion-agua-frecuencia-riego-bonsai',
+    publishedAt: '2025-01-19',
     image: '/blog/granulometria-calcular-retencion-agua-frecuencia-riego-bonsai.jpg',
     imageAlt: 'granulometria calcular retencion agua frecuencia riego bonsai',
     title: 'El Arte de la Granulometría: Cómo el Tamaño del Grano Dicta Cuándo Regar tu Bonsái',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'calculo-dosis-abono-npk-organico-quimico-bonsai',
+    publishedAt: '2025-02-24',
     image: '/blog/calculo-dosis-abono-npk-organico-quimico-bonsai.jpg',
     imageAlt: 'calculo dosis abono npk organico quimico bonsai',
     title: 'Matemáticas del Abono: Dosis Exactas de NPK Orgánico vs Químico',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'coladores-cajas-madera-engordar-tronco-bonsai-sustrato',
+    publishedAt: '2025-03-01',
     image: '/blog/coladores-cajas-madera-engordar-tronco-bonsai-sustrato.jpg',
     imageAlt: 'coladores cajas madera engordar tronco bonsai sustrato',
     title: 'El Mito de la Maceta Pequeña: Cómo Engordar el Tronco de tu Bonsái en Coladores',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'fijacion-alambre-angulo-plantado-frente-bonsai-nebari',
+    publishedAt: '2025-01-06',
     image: '/blog/fijacion-alambre-angulo-plantado-frente-bonsai-nebari.jpg',
     imageAlt: 'fijacion alambre angulo plantado frente bonsai nebari',
     title: 'El Ángulo de Plantado: Cómo Fijar Correctamente tu Bonsái a la Maceta',

@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'teoria-color-cmyk-modelismo',
+    publishedAt: '2024-12-06',
     image: '/blog/teoria-color-cmyk-modelismo.jpg',
     imageAlt: 'teoria color cmyk modelismo',
     title: 'CMYK vs RGB: La Teoría del Color que Todo Modelista Debe Conocer',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'marcas-pintura-modelismo-espana',
+    publishedAt: '2024-10-13',
     image: '/blog/marcas-pintura-modelismo-espana.jpg',
     imageAlt: 'marcas pintura modelismo espana',
     title: 'Vallejo, AK Interactive y Citadel: Guía de Marcas para Modelismo en España',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'tecnicas-mezcla-modelismo',
+    publishedAt: '2024-11-20',
     image: '/blog/tecnicas-mezcla-modelismo.jpg',
     imageAlt: 'tecnicas mezcla modelismo',
     title: 'Técnicas de Mezcla para Modelismo: Cómo Conseguir el Tono Exacto',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'colores-militares-modelismo',
+    publishedAt: '2024-12-27',
     image: '/blog/colores-militares-modelismo.jpg',
     imageAlt: 'colores militares modelismo',
     title: 'Cómo Conseguir Colores Militares Exactos: Referencias Ral, Federal Standard y Vallejo',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'almacenaje-pinturas-modelismo',
+    publishedAt: '2024-10-06',
     image: '/blog/almacenaje-pinturas-modelismo.jpg',
     imageAlt: 'almacenaje pinturas modelismo',
     title: 'Almacenaje y Conservación de Pinturas de Modelismo: Evita que se Sequen',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'cmyk-vs-rgb-colores-impresion-pantone',
+    publishedAt: '2025-03-20',
     image: '/blog/cmyk-vs-rgb-colores-impresion-pantone.jpg',
     imageAlt: 'cmyk vs rgb colores impresion pantone',
     title: 'CMYK vs RGB: Por Qué tus Impresiones No Tienen el Color de la Pantalla',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'como-replicar-color-exacto-meses-despues-archivo',
+    publishedAt: '2025-01-25',
     image: '/blog/como-replicar-color-exacto-meses-despues-archivo.jpg',
     imageAlt: 'como replicar color exacto meses despues archivo',
     title: 'Cómo Replicar el Mismo Color Exacto Meses Después en tu Taller',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'calcular-base-blanca-underbase-serigrafia-fondos-oscuros',
+    publishedAt: '2025-02-02',
     image: '/blog/calcular-base-blanca-underbase-serigrafia-fondos-oscuros.jpg',
     imageAlt: 'calcular base blanca underbase serigrafia fondos oscuros',
     title: 'El Secreto de la Base Blanca (Underbase) para Colores Vibrantes en Ropa Oscura',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'uso-reductores-viscosidad-bases-transparentes-plastisol',
+    publishedAt: '2025-03-07',
     image: '/blog/uso-reductores-viscosidad-bases-transparentes-plastisol.jpg',
     imageAlt: 'uso reductores viscosidad bases transparentes plastisol',
     title: 'Cómo Usar Reductores de Viscosidad y Bases Transparentes en Plastisol',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'temperatura-curado-tinta-plastisol-base-agua-tunel',
+    publishedAt: '2025-01-12',
     image: '/blog/temperatura-curado-tinta-plastisol-base-agua-tunel.jpg',
     imageAlt: 'temperatura curado tinta plastisol base agua tunel',
     title: 'Temperaturas de Curado: Cómo Evitar que la Tinta se Caiga al Primer Lavado',

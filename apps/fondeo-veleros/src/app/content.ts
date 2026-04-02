@@ -12,6 +12,7 @@ export const appConfig = {
 export const articles = [
   {
     slug: 'tipos-anclas-veleros-espana',
+    publishedAt: '2024-10-28',
     image: '/blog/tipos-anclas-veleros-espana.jpg',
     imageAlt: 'tipos anclas veleros espana',
     title: 'Las Mejores Anclas para Navegar por España: Delta, CQR, Danforth y Rocna',
@@ -19,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'fondear-correctamente',
+    publishedAt: '2024-11-07',
     image: '/blog/fondear-correctamente.jpg',
     imageAlt: 'fondear correctamente',
     title: 'Cómo Fondear Correctamente: El Procedimiento Paso a Paso',
@@ -26,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'escopo-calculo-cadena',
+    publishedAt: '2024-12-14',
     image: '/blog/escopo-calculo-cadena.jpg',
     imageAlt: 'escopo calculo cadena',
     title: 'El Escopo o Ratio de Fondeo: La Clave para no Garrar',
@@ -33,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'fondear-posidonia-baleares',
+    publishedAt: '2024-10-21',
     image: '/blog/fondear-posidonia-baleares.jpg',
     imageAlt: 'fondear posidonia baleares',
     title: 'Fondear en Posidonia en Baleares: Normativa y Alternativas Legales',
@@ -40,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'garreo-como-detectar',
+    publishedAt: '2024-11-28',
     image: '/blog/garreo-como-detectar.jpg',
     imageAlt: 'garreo como detectar',
     title: 'Cómo Detectar que el Ancla está Garrando: Señales y Actuación',
@@ -47,6 +52,7 @@ export const articles = [
   },
   {
     slug: 'calcular-longitud-cadena-cabo-fondeo-barco-scope',
+    publishedAt: '2025-03-16',
     image: '/blog/calcular-longitud-cadena-cabo-fondeo-barco-scope.jpg',
     imageAlt: 'calcular longitud cadena cabo fondeo barco scope',
     title: 'La Regla del Scope: Cómo Calcular la Longitud de Cadena para un Fondeo Seguro',
@@ -54,6 +60,7 @@ export const articles = [
   },
   {
     slug: 'calcular-circulo-borneo-radio-giro-fondeo-barco',
+    publishedAt: '2025-01-21',
     image: '/blog/calcular-circulo-borneo-radio-giro-fondeo-barco.jpg',
     imageAlt: 'calcular circulo borneo radio giro fondeo barco',
     title: 'Cómo Calcular el Círculo de Borneo y Evitar Chocar Fondeado',
@@ -61,6 +68,7 @@ export const articles = [
   },
   {
     slug: 'elegir-mejor-ancla-fondeo-rocna-delta-danforth-arena',
+    publishedAt: '2025-02-26',
     image: '/blog/elegir-mejor-ancla-fondeo-rocna-delta-danforth-arena.jpg',
     imageAlt: 'elegir mejor ancla fondeo rocna delta danforth arena',
     title: 'Rocna, Delta o Danforth: Cómo Elegir el Ancla Perfecta Según el Fondo',
@@ -68,6 +76,7 @@ export const articles = [
   },
   {
     slug: 'configurar-alarma-fondeo-gps-app-barco-garreo',
+    publishedAt: '2025-03-03',
     image: '/blog/configurar-alarma-fondeo-gps-app-barco-garreo.jpg',
     imageAlt: 'configurar alarma fondeo gps app barco garreo',
     title: 'Configurar la Alarma de Fondeo: Tu Único Seguro Contra el Garreo',
@@ -75,6 +84,7 @@ export const articles = [
   },
   {
     slug: 'dimensionar-bateria-fusible-molinete-ancla-barco',
+    publishedAt: '2025-01-08',
     image: '/blog/dimensionar-bateria-fusible-molinete-ancla-barco.jpg',
     imageAlt: 'dimensionar bateria fusible molinete ancla barco',
     title: 'Por Qué Salta el Fusible de tu Molinete: Cálculo de Carga y Baterías',

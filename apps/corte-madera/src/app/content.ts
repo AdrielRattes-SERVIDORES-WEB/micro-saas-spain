@@ -20,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'medidas-estandar-chapas-espana',
+    publishedAt: '2024-10-14',
     image: '/blog/medidas-estandar-chapas-espana.jpg',
     imageAlt: 'Spacious empty warehouse interior with polished concrete floor.',
     title: 'Medidas Estándar de Chapas en España: Lo que Venden en Leroy Merlín y Bricomart',
@@ -27,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'optimizar-cortes-manualmente',
+    publishedAt: '2024-11-21',
     image: '/blog/optimizar-cortes-manualmente.jpg',
     imageAlt: 'Various woodworking tools neatly arranged on a dark wall.',
     title: 'Cómo Optimizar Cortes a Mano: El Método del Papel Cuadriculado',
@@ -34,6 +36,7 @@ export const articles = [
   },
   {
     slug: 'software-optimizacion-corte',
+    publishedAt: '2024-12-28',
     image: '/blog/software-optimizacion-corte.jpg',
     imageAlt: 'a close up of a wooden structure with holes in it',
     title: 'Software Gratuito para Optimizar Cortes de Madera',
@@ -41,6 +44,7 @@ export const articles = [
   },
   {
     slug: 'calcular-desperdicio-madera',
+    publishedAt: '2024-10-07',
     image: '/blog/calcular-desperdicio-madera.jpg',
     imageAlt: 'a pile of wood',
     title: 'El Desperdicio en Carpintería: Cómo Calcularlo y Reducirlo al Mínimo',
@@ -61,6 +65,7 @@ export const articles = [
   },
   {
     slug: 'optimizacion-cortes-tableros-melamina-mdf',
+    publishedAt: '2025-03-02',
     image: '/blog/optimizacion-cortes-tableros-melamina-mdf.jpg',
     imageAlt: 'Hand using a circular saw to cut wood',
     title: 'El Secreto para Optimizar Cortes en Tableros de Melamina y Reducir Desperdicios',
@@ -68,6 +73,7 @@ export const articles = [
   },
   {
     slug: 'que-es-el-kerf-grosor-disco-sierra-medidas',
+    publishedAt: '2025-01-07',
     image: '/blog/que-es-el-kerf-grosor-disco-sierra-medidas.jpg',
     imageAlt: 'Circular saw blade cutting melamine board',
     title: 'Qué es el Kerf de la Sierra y Por Qué Está Arruinando tus Medidas',
@@ -103,6 +109,7 @@ export const articles = [
   },
   {
     slug: 'direccion-veta-madera-cortes-optimizados-muebles',
+    publishedAt: '2025-02-12',
     image: '/blog/direccion-veta-madera-cortes-optimizados-muebles.jpg',
     imageAlt: 'Wood panels showing natural grain direction',
     title: 'Cómo Organizar los Cortes Respetando la Dirección de la Veta de la Madera',
@@ -133,6 +140,7 @@ export const articles = [
   },
   {
     slug: 'descontar-grosor-canteado-pvc-melamina-cortes',
+    publishedAt: '2025-03-17',
     image: '/blog/descontar-grosor-canteado-pvc-melamina-cortes.jpg',
     imageAlt: 'PVC edge banding applied to melamine board',
     title: 'Cómo Descontar el Grosor del Canteado PVC en tus Planos de Corte',
@@ -173,6 +181,7 @@ export const articles = [
   },
   {
     slug: 'tecnicas-cortar-melamina-sin-astillar-bordes',
+    publishedAt: '2025-01-22',
     image: '/blog/tecnicas-cortar-melamina-sin-astillar-bordes.jpg',
     imageAlt: 'Clean precise cut on melamine board',
     title: '5 Técnicas Profesionales para Cortar Melamina sin Astillar los Bordes',

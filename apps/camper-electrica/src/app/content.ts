@@ -20,6 +20,7 @@ export const articles = [
   },
   {
     slug: 'tipos-cable-camper',
+    publishedAt: '2024-11-17',
     image: '/blog/tipos-cable-camper.jpg',
     imageAlt: 'Various electrical cables on a workbench',
     title: 'Tipos de Cable para Camper y Cuándo Usar cada uno',
@@ -27,6 +28,7 @@ export const articles = [
   },
   {
     slug: 'baterias-litio-agm-camper',
+    publishedAt: '2024-12-24',
     image: '/blog/baterias-litio-agm-camper.jpg',
     imageAlt: 'Lithium LiFePO4 and AGM batteries side by side',
     title: 'Litio vs AGM: Qué Batería Elegir para tu Camper',
@@ -44,6 +46,7 @@ export const articles = [
   },
   {
     slug: 'dimensionado-alternador-camper',
+    publishedAt: '2024-10-03',
     image: '/blog/dimensionado-alternador-camper.jpg',
     imageAlt: 'Car alternator with cables in engine bay',
     title: 'Cómo Dimensionar la Carga desde el Alternador del Coche',
@@ -62,6 +65,7 @@ export const articles = [
   },
   {
     slug: 'normativa-camper-espana',
+    publishedAt: '2024-11-10',
     image: '/blog/normativa-camper-espana.jpg',
     imageAlt: 'Converted camper van on a Spanish road',
     title: 'Normativa y Legalidad de Instalaciones Eléctricas en Campers en España',
@@ -77,6 +81,7 @@ export const articles = [
   },
   {
     slug: 'calcular-seccion-cables-12v-camper-furgoneta',
+    publishedAt: '2025-03-04',
     image: '/blog/calcular-seccion-cables-12v-camper-furgoneta.jpg',
     imageAlt: 'Person calculating wire gauge with multimeter in camper',
     title: 'Cómo Calcular la Sección de Cables a 12V en tu Camper para Evitar Incendios',
@@ -84,6 +89,7 @@ export const articles = [
   },
   {
     slug: 'como-elegir-fusibles-instalacion-electrica-camper',
+    publishedAt: '2025-01-09',
     image: '/blog/como-elegir-fusibles-instalacion-electrica-camper.jpg',
     imageAlt: 'Fuse box with blade fuses inside camper van',
     title: 'Guía Definitiva para Elegir Fusibles en tu Instalación Camper',
@@ -91,6 +97,7 @@ export const articles = [
   },
   {
     slug: 'calcular-capacidad-bateria-litio-agm-camper',
+    publishedAt: '2025-02-14',
     image: '/blog/calcular-capacidad-bateria-litio-agm-camper.jpg',
     imageAlt: 'LiFePO4 lithium batteries in camper compartment',
     title: 'Cómo Calcular la Batería Secundaria de tu Camper: Litio (LiFePO4) vs AGM',
@@ -98,6 +105,7 @@ export const articles = [
   },
   {
     slug: 'regulador-solar-mppt-vs-pwm-paneles-camper',
+    publishedAt: '2025-03-19',
     image: '/blog/regulador-solar-mppt-vs-pwm-paneles-camper.jpg',
     imageAlt: 'Solar panels on camper van roof',
     title: 'MPPT vs PWM: Cómo Elegir el Regulador Solar y No Desperdiciar tus Paneles',
@@ -105,6 +113,7 @@ export const articles = [
   },
   {
     slug: 'calcular-inversor-onda-pura-220v-furgoneta-picos-arranque',
+    publishedAt: '2025-01-24',
     image: '/blog/calcular-inversor-onda-pura-220v-furgoneta-picos-arranque.jpg',
     imageAlt: 'Pure sine wave inverter installed in camper van',
     title: 'Inversores de Onda Pura: Cálculo de Potencia y Picos de Arranque a 220V',
