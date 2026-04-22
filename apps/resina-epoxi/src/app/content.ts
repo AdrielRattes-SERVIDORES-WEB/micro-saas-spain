@@ -214,15 +214,29 @@ conteudo: <p>Llevo años fabricando mesas de río (River Tables) y encapsulados 
     imageAlt: 'shallow focus photo of person holding glass cup',
     title: 'El Error Letal: Mezclar Resina Epoxi por Volumen en Lugar de Peso',
     content: `<p>Has gastado cincuenta euros en un kit de resina transparente de alta calidad. Has preparado tu molde de silicona meticulosamente. Has medido el líquido en dos vasos de plástico fijándote en las rayitas de los mililitros, lo has mezclado, lo has vertido y has esperado pacientemente dos días. Cuando vas a desmoldar, la pieza está gomosa, se dobla como si fuera silicona barata, y la superficie está tan pegajosa que deja huellas dactilares permanentes. Acabas de experimentar el fallo químico más común, doloroso y evitable del mundo de los polímeros: medir por volumen en lugar de por peso.</p><p>A lo largo de los años dando soporte técnico a artesanos, he comprobado que el 90% de los fallos de curado se deben a proporciones incorrectas. La resina epoxi no es agua, y no es una receta de repostería casera. Es una reacción química binaria de reticulación cruzada entre una resina (Parte A) y un endurecedor o catalizador (Parte B). Para que la pieza quede dura como el cristal, cada molécula de la Parte A debe encontrar matemáticamente a su pareja de la Parte B. Si sobran moléculas de resina, la pieza quedará blanda. Si sobran moléculas de catalizador, la pieza quedará pegajosa, exudará aceites tóxicos o se volverá extremadamente quebradiza.</p>
-<div style="background:rgba(27,94,123,0.08);border:1px solid rgba(27,94,123,0.35);border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;">
-  <p style="font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#1B5E7B;margin:0 0 .9rem;font-weight:700;">Producto recomendado</p>
-  <div style="display:flex;gap:1rem;align-items:flex-start;">
-    <a href="https://amzn.to/48iWA4u" target="_blank" rel="nofollow sponsored noopener" style="flex-shrink:0;">
-      <img src="https://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRKGJVG3&Format=_SL160_&ID=AsinImage&MarketPlace=ES&ServiceVersion=20070822&WS=1&tag=resinaepox024-21" alt="Bsrezn Resina UV transparente 4 kg" width="90" style="border-radius:8px;display:block;" />
-    </a>
-    <div style="flex:1;">
-      <p style="margin:0 0 .85rem;line-height:1.65;color:#D4DDD9;font-size:14px;">Para proyectos pequeños como joyería, posavasos o moldes artísticos, la resina UV <strong>elimina el problema de proporciones A+B</strong>: ya viene lista para usar y cura en segundos bajo luz solar — sin riesgo de quedarse pegajosa por un error de ratio.</p>
-      <a href="https://amzn.to/48iWA4u" target="_blank" rel="nofollow sponsored noopener" style="display:inline-block;background:#1B5E7B;color:#fff;padding:.5rem 1.1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:13px;">Bsrezn Resina UV 4 kg — Ver en Amazon →</a>
+<div style="position:relative;background:linear-gradient(135deg,rgba(27,94,123,0.13) 0%,rgba(7,11,9,0.6) 100%);border:1px solid rgba(27,94,123,0.38);border-radius:14px;margin:2rem 0;overflow:hidden;">
+  <div style="height:2px;background:linear-gradient(90deg,#1B5E7B 0%,rgba(27,94,123,0.15) 100%);"></div>
+  <div style="padding:1.2rem 1.4rem;">
+    <div style="display:inline-flex;align-items:center;gap:.4rem;background:rgba(27,94,123,0.18);border:1px solid rgba(27,94,123,0.35);border-radius:20px;padding:.2rem .7rem;margin-bottom:1rem;">
+      <span style="width:5px;height:5px;border-radius:50%;background:#4A9BB5;display:inline-block;"></span>
+      <span style="font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:#4A9BB5;font-weight:700;">Producto recomendado</span>
+    </div>
+    <div style="display:flex;gap:1.1rem;align-items:center;">
+      <a href="https://amzn.to/48iWA4u" target="_blank" rel="nofollow sponsored noopener" style="flex-shrink:0;display:block;">
+        <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.09);border-radius:10px;padding:.5rem;width:88px;box-sizing:border-box;">
+          <img src="https://m.media-amazon.com/images/I/81J1fLcItrL._SX342_.jpg" alt="Bsrezn Resina UV 4 kg" style="width:100%;display:block;border-radius:6px;" loading="lazy" />
+        </div>
+      </a>
+      <div style="flex:1;min-width:0;">
+        <p style="margin:0 0 .35rem;font-size:15px;font-weight:700;color:#EDF2EF;line-height:1.3;">Bsrezn Resina UV Transparente — 4 kg</p>
+        <p style="margin:0 0 .7rem;font-size:13px;color:rgba(212,221,217,0.72);line-height:1.55;">Sin proporciones A+B — cura en segundos bajo luz solar. La alternativa sin errores de ratio para joyería y moldes pequeños.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.85rem;">
+          <span style="font-size:11px;background:rgba(27,94,123,0.22);color:#6BAFC8;border:1px solid rgba(27,94,123,0.32);border-radius:4px;padding:.15rem .5rem;">☀️ Cura UV</span>
+          <span style="font-size:11px;background:rgba(27,94,123,0.22);color:#6BAFC8;border:1px solid rgba(27,94,123,0.32);border-radius:4px;padding:.15rem .5rem;">Sin mezcla A+B</span>
+          <span style="font-size:11px;background:rgba(27,94,123,0.22);color:#6BAFC8;border:1px solid rgba(27,94,123,0.32);border-radius:4px;padding:.15rem .5rem;">4 kg</span>
+        </div>
+        <a href="https://amzn.to/48iWA4u" target="_blank" rel="nofollow sponsored noopener" style="display:inline-flex;align-items:center;gap:.45rem;background:#1B5E7B;color:#fff;padding:.45rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:13px;">Ver en Amazon <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
     </div>
   </div>
 </div>
