@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { BlogFeedTemplate } from '@saas/ui/src/templates/BlogFeedTemplate'
 import { appConfig, articles } from './content'
 
-const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
 
 export const metadata: Metadata = {
   title: `${appConfig.title} — Blog`,

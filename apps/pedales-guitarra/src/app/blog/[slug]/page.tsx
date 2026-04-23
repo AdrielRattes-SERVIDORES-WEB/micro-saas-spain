@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = articles.find((a) => a.slug === params.slug)
   if (!article) return {}
 
-  const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
   const description = article.excerpt || getExcerpt(article.content)
   const url = `${BASE_URL}/blog/${article.slug}`
 
@@ -57,7 +57,7 @@ export default function BlogPostPage({ params }: Props) {
   const article = articles.find((a) => a.slug === params.slug)
   if (!article) return <div>Artículo no encontrado</div>
 
-  const BASE_URL = `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL || 'localhost:3000'}`
   const description = article.excerpt || getExcerpt(article.content)
   const url = `${BASE_URL}/blog/${article.slug}`
   const datePublished = article.publishedAt || new Date().toISOString().split('T')[0]
