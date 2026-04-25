@@ -61,7 +61,7 @@ export const articles = [
   </div>
   <div style="display:flex;flex-direction:row;gap:0;align-items:stretch">
     <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored" style="flex-shrink:0;display:block;width:160px;min-height:160px;background:#f9fafb;display:flex;align-items:center;justify-content:center;padding:12px;border-right:1px solid #e5e7eb">
-      <img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRKGJVG3&Format=_SL300_&ID=AsinImage&MarketPlace=ES&ServiceVersion=20070822&WS=1&tag=resinaepox024-21" alt="Bsrezn Resina UV 4000g" style="max-width:136px;max-height:136px;object-fit:contain;display:block;margin:auto" loading="lazy" />
+      <img src="https://m.media-amazon.com/images/I/81J1fLcItrL._SL300_.jpg" alt="Bsrezn Resina UV transparente 4000g kit completo" style="max-width:138px;max-height:138px;object-fit:contain;display:block;margin:auto" loading="lazy" />
     </a>
     <div style="padding:16px 20px;flex:1;display:flex;flex-direction:column;gap:8px">
       <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored" style="font-weight:700;color:#1a3a5c;font-size:15px;line-height:1.4;text-decoration:none">Bsrezn Resina UV Transparente — Kit 4000g (4 × 1 kg)</a>
