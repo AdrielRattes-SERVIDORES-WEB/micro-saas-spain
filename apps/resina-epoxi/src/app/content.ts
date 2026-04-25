@@ -11,6 +11,89 @@ export const appConfig = {
 
 export const articles = [
   {
+    slug: 'resina-uv-vs-resina-epoxi-cuando-usar-cada-una',
+    publishedAt: '2026-04-25',
+    image: '/blog/que-es-resina-epoxi-mesas.jpg',
+    imageAlt: 'Resina UV vs resina epoxi A+B: diferencias y cuándo usar cada una',
+    title: 'Resina UV vs Resina Epoxi A+B: Diferencias y Cuándo Usar Cada Una',
+    excerpt: 'Descubre las diferencias clave entre resina UV y resina epoxi A+B: tiempos de curado, usos, limitaciones y cuál es la mejor opción para tu proyecto.',
+    content: `<h2>Resina UV y Resina Epoxi A+B: No Son lo Mismo</h2>
+<p>En el mercado español de resinas para manualidades y carpintería existe una confusión habitual: tratar la resina UV y la resina epoxi A+B como si fueran productos intercambiables. No lo son. Tienen química distinta, mecanismos de curado opuestos, y aplicaciones completamente diferentes. Usar la resina equivocada puede arruinar tu proyecto desde el principio.</p>
+<p>En este artículo te explicamos las diferencias reales entre ambas, para qué sirve cada una, y cuándo tiene sentido invertir en una resina UV de calidad como la <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored">Bsrezn Resina UV 4000g</a> frente a una resina epoxi de dos componentes.</p>
+
+<h2>Cómo Cura Cada Resina: La Diferencia Fundamental</h2>
+<p>La diferencia más importante entre ambas no es el precio ni la marca — es el mecanismo de curado.</p>
+<p><strong>La resina UV</strong> cura por fotopolimerización: necesita luz ultravioleta (del sol o de una lámpara UV) para iniciar la reacción. En cuanto la luz UV activa las moléculas, el proceso es casi instantáneo — entre 2 y 4 minutos bajo una lámpara UV, o unos minutos al sol directo. Sin luz UV, la resina permanece líquida indefinidamente, lo que te da control total sobre cuándo quieres que cure.</p>
+<p><strong>La resina epoxi A+B</strong> cura por reacción química entre dos componentes: la resina (Parte A) y el endurecedor (Parte B). En cuanto mezclas los dos componentes, el reloj empieza a correr — tienes una ventana de trabajo (pot life) de entre 20 y 60 minutos según el fabricante y la temperatura del taller. El curado completo tarda entre 24 horas y 7 días dependiendo del tipo de resina.</p>
+
+<h2>Resina UV: Para Qué Sirve y Para Qué NO</h2>
+<p>La resina UV destaca en proyectos donde necesitas rapidez, precisión y piezas pequeñas. Sus aplicaciones ideales son:</p>
+<ul>
+    <li><strong>Joyería DIY:</strong> pendientes, colgantes, anillos y pulseiras con moldes pequeños. La cura rápida permite desmoldar en minutos y seguir con la siguiente pieza.</li>
+    <li><strong>Reparaciones y adhesivo:</strong> sellar grietas en objetos pequeños, reparar bisutería, fijar cabujones en marcos de metal.</li>
+    <li><strong>Capas de acabado finas:</strong> encapsular flores, fotografías o elementos decorativos con una capa de 1-3 mm de espesor máximo.</li>
+    <li><strong>Arte y manualidades:</strong> llaveros, imanes, marcapáginas y objetos de regalo personalizados.</li>
+</ul>
+<p>Sin embargo, la resina UV tiene limitaciones físicas que no se pueden ignorar:</p>
+<ul>
+    <li><strong>Grosor máximo por capa: 1-3 mm.</strong> La luz UV no penetra en capas gruesas — la resina del interior quedaría sin curar. Para piezas de más de 5 mm de grosor, necesitas construir capa a capa, lo que en piezas de varios centímetros se vuelve inviable.</li>
+    <li><strong>Coste por kilogramo muy elevado.</strong> Una resina UV de 500g cuesta alrededor de 30-35€. Para un proyecto de 5 kg el coste se dispara por encima de 300€. La resina epoxi A+B para proyectos grandes cuesta entre 20-40€/kg.</li>
+    <li><strong>No apta para mesas de río.</strong> Un canal de resina de 4 cm de grosor requiere capas de vertido profundo que la resina UV físicamente no puede proporcionar.</li>
+</ul>
+
+<h2>Resina Epoxi A+B: Para Qué Sirve y Para Qué NO</h2>
+<p>La resina epoxi de dos componentes es la única opción viable para proyectos de gran volumen y grosor:</p>
+<ul>
+    <li><strong>Mesas de río (river tables):</strong> canales de 3 a 10 cm de grosor que requieren resinas de vertido profundo (Deep Pour).</li>
+    <li><strong>Encimeras y superficies:</strong> revestimientos de 2-5 mm sobre madera, cemento o azulejos.</li>
+    <li><strong>Figuras y moldes de gran tamaño:</strong> bloques, esferas y piezas decorativas de varios centímetros.</li>
+    <li><strong>Proyectos con pigmentos en masa:</strong> la resina A+B admite mayor cantidad de pigmento sin perder la integridad del curado.</li>
+</ul>
+<p>Sus limitaciones son el tiempo de curado (24h-7 días), la necesidad de calcular la proporción A:B con báscula de precisión, y la mayor complejidad de uso para principiantes.</p>
+
+<h2>Análisis: Bsrezn Resina UV 4000g</h2>
+<p>Si tu proyecto es joyería DIY, manualidades o piezas pequeñas y buscas volumen con buena relación calidad-precio, la <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored">Bsrezn Resina UV transparente 4000g</a> es una de las opciones más completas disponibles en Amazon.es.</p>
+<p><strong>Qué incluye el kit:</strong> 4 botellas de 1000g (total 4 kg), 4 vasos de medición de 100 ml, 10 vasos de resina, varillas de agitación, guantes y tapete de silicona. Para la mayoría de proyectos de joyería, este kit es suficiente para decenas o cientos de piezas.</p>
+<p><strong>Características técnicas relevantes:</strong></p>
+<ul>
+    <li><strong>Viscosidad: 2000 cps.</strong> Baja viscosidad que facilita el flujo en moldes de detalle fino, minimiza burbujas y permite un mejor control de la cantidad usada.</li>
+    <li><strong>Tiempo de curado: 2-4 minutos</strong> bajo lámpara UV. Curado instantáneo al sol directo en días soleados.</li>
+    <li><strong>Dureza: 85D.</strong> Acabado rígido, resistente a arañazos y manchas una vez curado.</li>
+    <li><strong>Resistencia al amarilleamiento.</strong> La fórmula incluye estabilizadores UV para mantener la transparencia a lo largo del tiempo — un punto crítico en joyería que se expone a la luz.</li>
+    <li><strong>Autodesgaseificante.</strong> Reduce la formación de burbujas en el proceso de vertido, especialmente útil para principiantes.</li>
+    <li><strong>Viene premezclada.</strong> A diferencia de la resina A+B, no hay que mezclar componentes — se usa directamente de la botella.</li>
+</ul>
+<p>Con 4.5 estrellas sobre 2.333 valoraciones verificadas en Amazon.es (mayo 2026), es uno de los productos mejor valorados en su categoría. Las reseñas destacan especialmente la claridad del acabado, la facilidad de uso y la ausencia de olor intenso durante el curado.</p>
+<p>El único punto a tener en cuenta: como toda resina UV, no es apta para capas de más de 2-3 mm. Para joyas finas, posavasos o piezas decorativas pequeñas, esto no supone ninguna limitación.</p>
+<p>Precio orientativo: <strong>33,76€ en formato 500g</strong> y <strong>112,66€ en formato 4000g</strong> (mejor precio por gramo). <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored">Ver precio actualizado en Amazon →</a></p>
+
+<h2>Tabla Comparativa: UV vs Epoxi A+B</h2>
+<p>Un resumen rápido para decidir cuál usar según tu proyecto:</p>
+<ul>
+    <li><strong>Joyería, piezas pequeñas, moldes de hasta 3 mm:</strong> Resina UV ✓ | A+B es excesiva</li>
+    <li><strong>Mesas de río, canales profundos (+2 cm):</strong> A+B ✓ | UV no puede curar en grosor</li>
+    <li><strong>Rapidez (curado en minutos):</strong> Resina UV ✓</li>
+    <li><strong>Proyectos de gran volumen (kg):</strong> A+B ✓ (menor coste por kg)</li>
+    <li><strong>Sin necesidad de mezclar componentes:</strong> Resina UV ✓</li>
+    <li><strong>Precisión en proporción y temperatura:</strong> A+B requiere báscula y control térmico</li>
+    <li><strong>Encimeras y revestimientos de 2-5 mm:</strong> Ambas son viables según preferencia</li>
+</ul>
+
+<h2>¿Puedes Usar Resina UV para una Mesa de Río?</h2>
+<p>Técnicamente, no. El canal de una mesa de río tiene típicamente entre 3 y 10 cm de grosor. La luz UV no penetra más de 2-3 mm en la resina — el 95% del volumen quedaría sin curar, blando y pegajoso para siempre. Construir un canal de 8 cm de profundidad en capas UV de 2 mm requeriría 40 vertidos y semanas de trabajo. No es viable.</p>
+<p>Para mesas de río, la única opción es una resina epoxi A+B de vertido profundo (Deep Pour) formulada para soportar el grosor sin sobrecalentarse. Si necesitas calcular exactamente cuánta resina A+B necesitas para tu mesa — peso, proporción, capas y coste — nuestra <a href="/dashboard">calculadora de resina epoxi</a> lo hace en segundos.</p>
+
+<h3>Preguntas Frecuentes</h3>
+<h3>¿La resina UV es más resistente que la resina epoxi A+B?</h3>
+<p>Depende del uso. La resina UV curada tiene una dureza de 80-90D, comparable a la resina epoxi A+B. Sin embargo, la resina epoxi A+B de calidad industrial ofrece mayor resistencia a impactos, temperatura y disolventes. Para joyería y piezas decorativas, la resistencia de la resina UV es más que suficiente.</p>
+<h3>¿Puedo usar la Bsrezn UV sin lámpara UV, solo con luz solar?</h3>
+<p>Sí, la resina UV cura con luz solar directa. Sin embargo, en España la intensidad solar varía mucho según la estación y la hora. En verano al mediodía puede curar en 3-5 minutos. En días nublados o en invierno puede tardar 15-30 minutos o no curar completamente. Para resultados consistentes, se recomienda una lámpara UV de 36W o superior.</p>
+<h3>¿Cuántas piezas de joyería salen de 500g de resina UV?</h3>
+<p>Depende del tamaño de las piezas. Un pendiente pequeño de 2 cm de diámetro con 3 mm de grosor consume aproximadamente 1-2g de resina. Con 500g puedes hacer entre 250 y 500 pares de pendientes pequeños. Para piezas más grandes como colgantes o pulseiras rellenas, el consumo sube a 5-15g por pieza.</p>
+<h3>¿Se puede añadir pigmento o purpurina a la resina UV Bsrezn?</h3>
+<p>Sí. La Bsrezn UV admite pigmentos de mica, alcohol ink, purpurina, pigmentos en polvo y dispersiones de pigmentos. La proporción máxima recomendada de aditivos es del 5-10% del peso total de resina — si añades demasiado pigmento, puede interferir con la penetración de la luz UV y provocar un curado incompleto en el centro de la pieza.</p>`,
+  },
+  {
     slug: 'como-calcular-la-resina-epoxica',
     publishedAt: '2026-04-25',
     image: '/blog/calcular-volumen-exacto-resina-epoxi-mesas-rio.jpg',
