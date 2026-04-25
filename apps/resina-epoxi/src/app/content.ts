@@ -11,6 +11,94 @@ export const appConfig = {
 
 export const articles = [
   {
+    slug: 'como-calcular-la-resina-epoxica',
+    publishedAt: '2026-04-25',
+    image: '/blog/calcular-volumen-exacto-resina-epoxi-mesas-rio.jpg',
+    imageAlt: 'Cómo calcular la resina epóxica para una mesa de río paso a paso',
+    title: 'Cómo Calcular la Resina Epóxica: Fórmula, Pasos y Errores a Evitar',
+    excerpt: 'Aprende a calcular la cantidad exacta de resina epóxica con la fórmula correcta: volumen, densidad, proporción A:B, capas y merma. Guía paso a paso.',
+    content: `<h2>La Fórmula para Calcular la Resina Epóxica</h2>
+<p>Calcular la resina epóxica correctamente antes de empezar un proyecto es la diferencia entre comprar lo justo y tirar dinero en resina de más — o peor, quedarte corto a mitad del vertido. La fórmula base es simple pero tiene varios pasos que no puedes saltarte.</p>
+<p>La fórmula completa para calcular la resina epóxica es:</p>
+<ol>
+    <li><strong>Volumen del canal (cm³)</strong> = Largo × Ancho × Grosor</li>
+    <li><strong>Volumen en litros</strong> = cm³ ÷ 1000</li>
+    <li><strong>Peso de mezcla (kg)</strong> = Litros × Densidad de la resina (normalmente 1,05–1,15 kg/L)</li>
+    <li><strong>Peso con merma</strong> = Peso total × 1,10 (añade 10% de desperdicio)</li>
+    <li><strong>Parte A</strong> = Peso total ÷ (1 + ratio B/A)</li>
+    <li><strong>Parte B</strong> = Peso total − Parte A</li>
+</ol>
+<p>Veamos un ejemplo real: una mesa de río con un canal de 180 cm de largo, 25 cm de ancho y 4 cm de grosor, usando una resina con densidad 1,15 kg/L y proporción A:B de 2:1 por peso.</p>
+<ul>
+    <li>Volumen = 180 × 25 × 4 = 18.000 cm³ = 18 litros</li>
+    <li>Peso de mezcla = 18 × 1,15 = 20,7 kg</li>
+    <li>Con merma 10% = 20,7 × 1,10 = 22,77 kg</li>
+    <li>Parte A (2/3) = 15,18 kg</li>
+    <li>Parte B (1/3) = 7,59 kg</li>
+</ul>
+
+<h2>Paso 1 — Medir el Volumen del Canal con Precisión</h2>
+<p>Antes de calcular nada, necesitas las medidas exactas del canal en centímetros. Usa una cinta métrica rígida y mide en tres puntos distintos del largo, el ancho y el grosor — especialmente si la madera no es perfectamente uniforme. Usa la media de las tres mediciones.</p>
+<p>Si tu canal tiene una forma irregular (trapezoidal, con curvas naturales de la madera), divídelo en secciones rectangulares más pequeñas, calcula el volumen de cada sección por separado y súmalos. Es mejor sobrestimar ligeramente el volumen que quedarte corto.</p>
+<p>Un error muy común es olvidar descontar el volumen de la madera que sobresale hacia el interior del canal. Si tienes nudos, protuberancias o irregularidades grandes, réstalas del volumen total para no comprar más resina de la necesaria.</p>
+
+<h2>Paso 2 — Elegir la Densidad Correcta según tu Resina</h2>
+<p>La densidad es el factor que convierte litros en kilogramos. No todas las resinas epóxicas tienen la misma densidad, y usar el valor equivocado puede provocar errores de hasta un 15% en el cálculo final.</p>
+<p>Los valores típicos según tipo de resina son:</p>
+<ul>
+    <li><strong>Resina de vertido profundo (Deep Pour):</strong> 1,05–1,10 kg/L. Son más fluidas y ligeras, diseñadas para vertidos de 5–10 cm.</li>
+    <li><strong>Resina de recubrimiento (Top Coat):</strong> 1,10–1,15 kg/L. Más densas, para capas de 1–3 mm de acabado.</li>
+    <li><strong>Resinas pigmentadas o con cargas:</strong> hasta 1,20 kg/L. Las cargas minerales aumentan la densidad.</li>
+</ul>
+<p>La densidad exacta siempre está en la hoja de datos técnicos (TDS) del fabricante. Si no tienes ese documento, usa 1,10 kg/L como valor conservador para tu cálculo.</p>
+
+<h2>Paso 3 — Calcular la Proporción A:B por Peso</h2>
+<p>Una vez tienes el peso total de mezcla, debes dividirlo entre los dos componentes según la proporción indicada por el fabricante. Esta proporción debe calcularse siempre <strong>por peso</strong>, nunca por volumen, porque la Parte A (resina) y la Parte B (endurecedor) tienen densidades distintas.</p>
+<p>Las proporciones más comunes en el mercado español son:</p>
+<ul>
+    <li><strong>2:1 por peso</strong> (100:50) — la más habitual en resinas de vertido profundo. Por cada 2 partes de resina, 1 parte de endurecedor.</li>
+    <li><strong>3:1 por peso</strong> (100:33) — frecuente en resinas de recubrimiento y algunas Deep Pour.</li>
+    <li><strong>1:1 por volumen</strong> — solo algunas resinas de arte o decorativas. Requiere conversión a peso antes de mezclar.</li>
+</ul>
+<p>Para una proporción 2:1 con 10 kg de mezcla total: Parte A = 6,67 kg, Parte B = 3,33 kg. Pesa siempre con báscula digital de precisión mínima de 1 gramo. Un error del 5% en la proporción puede dejar tu resina sin curar correctamente.</p>
+
+<h2>Paso 4 — Determinar el Número de Capas</h2>
+<p>El número de capas depende del grosor total del canal y del grosor máximo permitido por vertido de tu resina. Nunca viertas más resina de una sola vez de lo que el fabricante indica — el exceso de masa genera calor (reacción exotérmica) que destruye la pieza.</p>
+<p>Para calcular el número de capas: divide el grosor total del canal entre el grosor máximo por vertido de tu resina. Si el canal tiene 8 cm de grosor y tu resina permite 4 cm por vertido, necesitas mínimo 2 capas. Redondea siempre hacia arriba.</p>
+<p>Entre cada capa debes esperar a que la anterior alcance el estado de gel (consistencia de goma, ni líquida ni dura). Verter sobre resina ya curada y dura sin lijar primero impedirá la adhesión entre capas.</p>
+
+<h2>Paso 5 — Añadir la Merma</h2>
+<p>La merma es el porcentaje de resina que inevitablemente se pierde en el proceso: restos en el vaso de mezcla, salpicaduras, exceso que desborda el molde, o resina que absorbe la madera en las primeras capas. Un 8–12% de merma es normal en proyectos de mesas de río.</p>
+<p>Añade siempre un mínimo de 10% al total calculado. Si es tu primer proyecto, sube al 15%. Quedarte sin resina a mitad de un vertido es un desastre que no tiene solución — la capa parcialmente curada y la nueva resina no se fusionan correctamente.</p>
+
+<h2>Herramienta para Calcular la Resina Epóxica Automáticamente</h2>
+<p>Hacer estos cálculos a mano es posible pero propenso a errores, especialmente cuando tienes que gestionar múltiples secciones, capas y diferentes proporciones de fabricante. Nuestra <a href="/dashboard">calculadora de resina epóxica</a> realiza todos estos pasos automáticamente:</p>
+<ul>
+    <li>Introduces largo, ancho y grosor del canal en centímetros</li>
+    <li>Seleccionas la proporción A:B de tu fabricante y la densidad de tu resina</li>
+    <li>Introduces la temperatura actual de tu taller</li>
+    <li>Obtienes al instante: peso total, gramos de Parte A y B, número de capas recomendadas, coste estimado y peso con merma</li>
+</ul>
+<p>El ajuste por temperatura es especialmente importante: a más de 25°C debes reducir el grosor máximo por vertido para evitar la exotermia. La calculadora aplica este factor automáticamente según la temperatura que introduzcas.</p>
+
+<h2>Errores Más Comunes al Calcular Resina Epóxica</h2>
+<p><strong>Error 1: Calcular por volumen en lugar de por peso.</strong> La Parte A y la Parte B tienen densidades distintas. 100 ml de resina no pesan lo mismo que 100 ml de endurecedor. Usa siempre báscula, nunca vasos medidores para las proporciones.</p>
+<p><strong>Error 2: No añadir merma.</strong> El cálculo matemático exacto nunca es suficiente. Siempre hay pérdidas en el proceso. Añade al menos un 10% extra.</p>
+<p><strong>Error 3: Ignorar la temperatura del taller.</strong> Una resina que aguanta 5 cm de vertido a 20°C solo aguantará 3–3,5 cm a 28°C antes de sobrecalentarse. Ajusta el grosor por capa según la temperatura real del día.</p>
+<p><strong>Error 4: No medir el canal en varios puntos.</strong> La madera natural nunca es perfectamente uniforme. Una sola medición puede darte un volumen incorrecto de hasta un 20%.</p>
+<p><strong>Error 5: Mezclar marcas distintas de A y B.</strong> Cada fabricante formula sus componentes como sistema cerrado. Mezclar la Parte A de una marca con la Parte B de otra produce una reacción incorrecta o nula.</p>
+
+<h3>Preguntas Frecuentes</h3>
+<h3>¿Cómo calculo cuánta resina epóxica necesito para 1 metro cuadrado?</h3>
+<p>Para calcular la resina por metro cuadrado, multiplica 10.000 cm² (1 m²) por el grosor en centímetros para obtener el volumen en cm³. Divídelo entre 1000 para convertir a litros y multiplica por la densidad de tu resina (1,10 kg/L). Por ejemplo, 1 m² con 0,3 cm de grosor = 3 litros × 1,10 = 3,3 kg de mezcla. Añade un 10% de merma: necesitas unos 3,6 kg.</p>
+<h3>¿Cuánta resina epóxica necesito para una mesa de río de 2 metros?</h3>
+<p>Depende del ancho y grosor del canal. Una mesa de río de 2 metros (200 cm) con canal de 20 cm de ancho y 4 cm de grosor requiere: 200 × 20 × 4 = 16.000 cm³ = 16 litros. Con densidad 1,10 kg/L = 17,6 kg + 10% merma = 19,4 kg de mezcla total. Con proporción 2:1: Parte A ≈ 12,9 kg y Parte B ≈ 6,5 kg.</p>
+<h3>¿Puedo usar una calculadora de volumen normal para la resina?</h3>
+<p>Puedes calcular el volumen básico con cualquier calculadora, pero para resina epóxica necesitas aplicar también la densidad de la resina, la proporción A:B por peso, el número de capas según el tipo de resina y el grosor del canal, y el ajuste por temperatura del taller. Una calculadora genérica no tiene estos parámetros. Por eso existe una calculadora especializada para resina epóxica.</p>
+<h3>¿Qué pasa si calculo mal y me sobra resina mezclada?</h3>
+<p>La resina ya mezclada (Parte A + Parte B combinadas) tiene una vida útil de uso (pot life) de entre 20 y 60 minutos según el fabricante. Si te sobra mezcla y no tienes donde vertirla, puedes usarla para hacer pequeñas piezas decorativas en moldes de silicona, coasters o posavasos. Nunca devuelvas la mezcla al envase original de los componentes por separado.</p>`,
+  },
+  {
     slug: 'que-es-resina-epoxi-mesas',
     publishedAt: '2026-02-01',
     image: '/blog/que-es-resina-epoxi-mesas.jpg',
