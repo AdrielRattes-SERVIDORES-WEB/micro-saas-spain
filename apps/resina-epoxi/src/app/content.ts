@@ -53,6 +53,39 @@ export const articles = [
 
 <h2>Análisis: Bsrezn Resina UV 4000g</h2>
 <p>Si tu proyecto es joyería DIY, manualidades o piezas pequeñas y buscas volumen con buena relación calidad-precio, la <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored">Bsrezn Resina UV transparente 4000g</a> es una de las opciones más completas disponibles en Amazon.es.</p>
+
+<div style="border:2px solid #e5e7eb;border-radius:16px;overflow:hidden;margin:28px 0;background:#fff;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.07)">
+  <div style="background:#f8fafc;padding:12px 16px;border-bottom:1px solid #e5e7eb;display:flex;align-items:center;gap:8px">
+    <span style="font-size:11px;font-weight:700;color:#f90;background:#fff8e6;padding:3px 8px;border-radius:20px;border:1px solid #fde68a">★ PRODUCTO RECOMENDADO</span>
+    <span style="font-size:11px;color:#6b7280">Enlace de afiliado — Amazon.es</span>
+  </div>
+  <div style="display:flex;flex-direction:row;gap:0;align-items:stretch">
+    <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored" style="flex-shrink:0;display:block;width:160px;min-height:160px;background:#f9fafb;display:flex;align-items:center;justify-content:center;padding:12px;border-right:1px solid #e5e7eb">
+      <img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CRKGJVG3&Format=_SL300_&ID=AsinImage&MarketPlace=ES&ServiceVersion=20070822&WS=1&tag=resinaepox024-21" alt="Bsrezn Resina UV 4000g" style="max-width:136px;max-height:136px;object-fit:contain;display:block;margin:auto" loading="lazy" />
+    </a>
+    <div style="padding:16px 20px;flex:1;display:flex;flex-direction:column;gap:8px">
+      <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored" style="font-weight:700;color:#1a3a5c;font-size:15px;line-height:1.4;text-decoration:none">Bsrezn Resina UV Transparente — Kit 4000g (4 × 1 kg)</a>
+      <div style="display:flex;align-items:center;gap:6px">
+        <span style="color:#f59e0b;font-size:15px">★★★★★</span>
+        <span style="font-size:13px;color:#6b7280">4.5/5 · 2.333 valoraciones</span>
+      </div>
+      <ul style="margin:4px 0 0 0;padding-left:18px;font-size:13px;color:#374151;line-height:1.8">
+        <li>Pré-mezclada · sin componente B</li>
+        <li>Cura en 2–4 min bajo lámpara UV</li>
+        <li>Viscosidad 2000 cps · autodesgaseificante</li>
+        <li>Resistente al amarilleamiento · dureza 85D</li>
+        <li>Incluye vasos, varillas, guantes y tapete</li>
+      </ul>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:12px;border-top:1px solid #f3f4f6;flex-wrap:wrap;gap:8px">
+        <div>
+          <span style="font-size:22px;font-weight:800;color:#1a3a5c">112,66€</span>
+          <span style="font-size:12px;color:#6b7280;margin-left:6px">formato 4 kg · mejor precio/g</span>
+        </div>
+        <a href="https://amzn.to/4sT4Z68" target="_blank" rel="noopener sponsored" style="background:#f59e0b;color:#1a1a1a;font-weight:700;font-size:13px;padding:9px 18px;border-radius:8px;text-decoration:none;white-space:nowrap">Ver en Amazon →</a>
+      </div>
+    </div>
+  </div>
+</div>
 <p><strong>Qué incluye el kit:</strong> 4 botellas de 1000g (total 4 kg), 4 vasos de medición de 100 ml, 10 vasos de resina, varillas de agitación, guantes y tapete de silicona. Para la mayoría de proyectos de joyería, este kit es suficiente para decenas o cientos de piezas.</p>
 <p><strong>Características técnicas relevantes:</strong></p>
 <ul>
