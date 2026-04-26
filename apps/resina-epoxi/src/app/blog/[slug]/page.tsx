@@ -14,16 +14,6 @@ function getExcerpt(html: string): string {
   return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 160)
 }
 
-function extractFAQs(html: string) {
-  const faqMatch = html.match(/Preguntas Frecuentes<\/h[23]>([\s\S]*?)(?=<h2|$)/i)
-  if (!faqMatch) return []
-  const pairs = [...faqMatch[1].matchAll(/<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/gi)]
-  return pairs.map((m) => ({
-    '@type': 'Question',
-    name: m[1].replace(/<[^>]+>/g, '').trim(),
-    acceptedAnswer: { '@type': 'Answer', text: m[2].replace(/<[^>]+>/g, '').trim() },
-  }))
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = articles.find((a) => a.slug === params.slug)
@@ -61,8 +51,6 @@ export default function BlogPostPage({ params }: Props) {
   const description = article.excerpt || getExcerpt(article.content)
   const url = `${BASE_URL}/blog/${article.slug}`
   const datePublished = article.publishedAt || new Date().toISOString().split('T')[0]
-
-  const faqs = extractFAQs(article.content)
 
   const blogPostingLd = {
     '@context': 'https://schema.org',
