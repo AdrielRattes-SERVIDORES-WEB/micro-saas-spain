@@ -45,9 +45,8 @@ export async function POST(req: NextRequest) {
     })
 
     const order = await res.json()
-    if (!order.id) return NextResponse.json({ error: 'paypal_error', detail: order }, { status: 400 })
     return NextResponse.json({ orderID: order.id })
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message || 'Error al crear el pedido' }, { status: 500 })
+  } catch (err) {
+    return NextResponse.json({ error: 'Error al crear el pedido' }, { status: 500 })
   }
 }
